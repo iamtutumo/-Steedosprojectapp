@@ -1,0 +1,14 @@
+name: overspended
+filterable: false
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 已超支
+omit: false
+readonly: true
+required: false
+searchable: false
+sort_no: 205
+sortable: false
+type: boolean

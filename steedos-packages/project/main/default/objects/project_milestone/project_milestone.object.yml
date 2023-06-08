@@ -1,0 +1,39 @@
+name: project_milestone
+custom: true
+enable_api: true
+enable_audit: false
+enable_chatter: false
+enable_events: false
+enable_files: true
+enable_inline_edit: true
+enable_instances: false
+enable_notes: false
+enable_search: true
+enable_share: false
+enable_tasks: false
+enable_workflow: false
+enable_tree: true
+parent_field: project_milestone
+enable_enhanced_lookup: true
+version: 2
+icon: entity_milestone
+is_enable: true
+label: 里程碑
+# relatedList:
+#   - objectName: project_milestone
+#     filters: !!js/function |
+#       function(parentRecord) { 
+#         var this_id = Creator.getObjectRecord()._id;
+#         return [["project_milestone","=",this_id]]
+#       }
+#     label: 子里程碑
+#     columns:
+#       - name
+#       - head_spaceuser
+#       - has_collection
+#       - project
+#       - kickoff
+#       - deadline
+#       - completed_date
+#   - project_task
+#   - cms_files

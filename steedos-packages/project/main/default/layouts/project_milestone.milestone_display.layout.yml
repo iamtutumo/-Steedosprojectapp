@@ -1,0 +1,66 @@
+name: milestone_display
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+field_groups:
+  - group_name: 系统信息
+fields:
+  - field_name: name
+    is_readonly: false
+    is_required: true
+  - field_name: head_spaceuser
+    is_readonly: false
+    is_required: true
+  - field_name: project
+    is_readonly: false
+    is_required: true
+  - field_name: project_milestone
+    is_readonly: false
+    is_required: false
+  - field_name: kickoff
+    is_readonly: false
+    is_required: true
+  - field_name: deadline
+    is_readonly: false
+    is_required: true
+  - field_name: owner
+    is_readonly: true
+    is_required: false
+  - field_name: has_collection
+    is_readonly: false
+    is_required: false
+  - field_name: completed
+    is_readonly: false
+    is_required: false
+  - field_name: completed_date
+    is_readonly: false
+    is_required: false
+  - field_name: description
+    is_readonly: false
+    is_required: false
+label: 里程碑
+object_name: project_milestone
+profiles:
+  - supplier
+  - admin
+  - user
+  - customer
+related_lists:
+  - related_field_fullname: cms_files.parent
+    field_names:
+      - name
+      - size
+      - owner
+      - created
+      - modified
+  - related_field_fullname: project_task.project_milestone
+    field_names:
+      - name
+      - project
+      - assignees
+      - due_date
+      - priority
+      - completed
+      - state
+type: record

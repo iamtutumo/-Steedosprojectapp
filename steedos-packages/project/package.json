@@ -1,0 +1,14 @@
+{
+    "name": "@steedos-labs/project",
+    "version": "2.2.5",
+    "description": "",
+    "main": "package.service.js",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@steedos-labs/master": "2.2.5"
+    },
+    "gitHead": "f19acd58f91306840e665320b772a9db962a7cf0"
+}

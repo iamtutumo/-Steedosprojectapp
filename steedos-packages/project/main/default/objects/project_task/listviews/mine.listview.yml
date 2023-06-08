@@ -1,0 +1,39 @@
+name: mine
+columns:
+  - field: name
+    wrap: false
+  - field: project
+    wrap: false
+  - field: assignees
+    width: '150'
+    wrap: false
+  - field: due_date
+    width: '150'
+    wrap: false
+  - field: priority
+    width: '100'
+    wrap: false
+  - field: completed
+    width: '100'
+    wrap: false
+  - field: state
+    width: '100'
+    wrap: false
+  - field: owner
+    wrap: false
+filter_fields:
+  - name
+  - project
+  - due_date
+  - priority
+  - state
+  - completed
+filter_scope: mine
+label: 我的任务
+scrolling_mode: standard
+shared: true
+show_count: false
+sort:
+  - field_name: due_date
+    order: asc
+type: grid

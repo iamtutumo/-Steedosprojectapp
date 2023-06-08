@@ -1,0 +1,17 @@
+name: total_hours
+filterable: false
+group: 用时
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 累计耗时
+omit: false
+precision: 18
+readonly: true
+required: false
+scale: 2
+searchable: false
+sort_no: 225
+sortable: false
+type: currency

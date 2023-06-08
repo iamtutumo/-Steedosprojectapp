@@ -1,0 +1,38 @@
+name: all
+columns:
+  - field: name
+    wrap: false
+  - field: project
+    wrap: false
+  - field: assignees
+    width: '150'
+    wrap: false
+  - field: due_date
+    width: '150'
+    wrap: false
+  - field: priority
+    width: '100'
+    wrap: false
+  - field: completed
+    width: '100'
+    wrap: false
+  - field: state
+    width: '150'
+    wrap: false
+filter_fields:
+  - name
+  - project
+  - assignees
+  - due_date
+  - priority
+  - state
+  - completed
+filter_scope: space
+label: 所有
+scrolling_mode: standard
+shared: true
+show_count: false
+sort:
+  - field_name: due_date
+    order: desc
+type: grid

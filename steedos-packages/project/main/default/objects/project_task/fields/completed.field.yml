@@ -1,0 +1,17 @@
+name: completed
+data_type: boolean
+filterable: false
+formula: ISPICKVAL(state , "completed")
+formula_blank_value: blanks
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 已完成
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 190
+sortable: false
+type: formula

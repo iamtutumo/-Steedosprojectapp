@@ -1,0 +1,17 @@
+name: hours_balance
+filterable: false
+group: 用时
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 剩余用时
+omit: false
+precision: 18
+readonly: true
+required: false
+scale: 2
+searchable: false
+sort_no: 240
+sortable: false
+type: number

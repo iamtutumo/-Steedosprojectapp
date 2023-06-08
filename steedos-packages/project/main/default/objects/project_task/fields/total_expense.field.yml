@@ -1,0 +1,17 @@
+name: total_expense
+filterable: false
+group: 费用
+hidden: true
+index: false
+is_name: false
+is_wide: false
+label: 累计花费
+omit: false
+precision: 18
+readonly: true
+required: false
+scale: 2
+searchable: false
+sort_no: 250
+sortable: false
+type: currency

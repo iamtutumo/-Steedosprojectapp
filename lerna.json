@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "steedos-packages/*"
+  ],
+  "useNx": false,
+  "version": "2.2.5"
+}

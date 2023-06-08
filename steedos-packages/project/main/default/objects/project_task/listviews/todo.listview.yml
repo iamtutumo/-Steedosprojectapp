@@ -1,0 +1,59 @@
+name: todo
+columns:
+  - field: name
+    wrap: false
+  - field: project
+    wrap: false
+  - field: assignees
+    width: '150'
+    wrap: false
+  - field: due_date
+    width: '150'
+    wrap: false
+  - field: priority
+    width: '100'
+    wrap: false
+  - field: state
+    width: '150'
+    wrap: false
+filter_fields:
+  - name
+  - project
+  - assignees
+  - due_date
+  - priority
+  - state
+  - completed
+filter_scope: space
+filters:
+  - field: name
+    is_default: true
+    is_required: false
+  - field: project_milestone
+    is_default: true
+    is_required: false
+  - field: assignees
+    is_default: true
+    is_required: false
+  - field: due_date
+    is_default: true
+    is_required: false
+  - field: priority
+    is_default: true
+    is_required: false
+  - field: state
+    is_default: true
+    is_required: false
+  - is_default: true
+    field: completed
+    operation: '='
+    value: false
+    is_required: false
+label: 待完成的任务
+scrolling_mode: standard
+shared: true
+show_count: false
+sort:
+  - field_name: due_date
+    order: asc
+type: grid

@@ -1,0 +1,86 @@
+name: head_spaceuser
+filterable: true
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 责任人
+multiple: false
+omit: false
+readonly: false
+reference_to: users
+required: true
+searchable: true
+sort_no: 102
+sortable: false
+type: lookup
+depend_on:
+  - project
+optionsFunction: !<tag:yaml.org,2002:js/function> |-
+  function(values
+  ) {
+
+    var _options = [];
+    var this_project = _.isObject(values.project) ? values.project._id : values.project;
+    console.log("project",values.project);
+    if (!this_project) {
+      if (Session.get("object_name") == "project"){
+        this_project = Creator.getObjectRecord()._id;
+      } else if (Session.get("object_name") == "project_milestone"){
+        this_project = Creator.getObjectRecord().project;
+      }
+      else {
+        return;
+      }
+    }
+    console.log("project",this_project);
+    var team_members = Creator.odata.get('project', this_project, 'owner,technical_manager,development_engineers,delivery_engineers,test_engineers,others');
+    if (team_members.owner) {
+      console.log("owner",team_members.owner);
+
+      var filters = [];
+      filters.push("(user eq '" + team_members.owner + "')")
+      if (team_members.technical_manager) {
+        filters.push("(user eq '" + team_members.technical_manager + "')")
+      }
+      
+      if (team_members.development_engineers) {
+        team_members.development_engineers.forEach(function (item, num) {
+          filters.push("(user eq '" + item + "')")
+        })
+      }
+      
+      if (team_members.delivery_engineers) {
+        team_members.delivery_engineers.forEach(function (item, num) {
+          filters.push("(user eq '" + item + "')")
+        })
+      }
+      
+      if (team_members.test_engineers) {
+        team_members.test_engineers.forEach(function (item, num) {
+          filters.push("(user eq '" + item + "')")
+        })
+      }
+      
+      if (team_members.others) {
+        team_members.others.forEach(function (item, num) {
+          filters.push("(user eq '" + item + "')")
+        })
+      }
+
+      var $filter = filters.join(" or ")
+      console.log("finding...",$filter);
+      var this_project_manager = Creator.odata.query('space_users', {$filter: $filter, $select: '_id,user,name'}, true);
+      
+      if (this_project_manager){
+        _.each(this_project_manager, function(item){
+          _options.push({value: item.user, label: item.name});
+        })
+      }
+    }
+
+    console.log("_options",_options);
+    return _options;
+
+
+  }
