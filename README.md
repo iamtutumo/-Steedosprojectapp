@@ -1,11 +1,11 @@
-Steedos Projects
+Project Management App
 ===
 
-Project management software built for dynamic teams.
+Steedos Project Management App simplifies the complex task of managing projects by providing a user-friendly interface and powerful features.
 
-- Plan your projects
-- Track work efficiently
-- Collaborate with global teams
+With this app, you can easily create and assign tasks, track progress, manage resources, and collaborate with your team in real-time.
+
+
 
 
 # Getting Started 
@@ -16,7 +16,7 @@ Project management software built for dynamic teams.
 docker-compose up
 ```
 
-## Start Steedos Project Packages
+## Start Steedos Project Management App
 
 
 ```bash
