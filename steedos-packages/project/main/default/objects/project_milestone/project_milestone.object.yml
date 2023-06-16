@@ -19,21 +19,4 @@ version: 2
 icon: entity_milestone
 is_enable: true
 label: 里程碑
-# relatedList:
-#   - objectName: project_milestone
-#     filters: !!js/function |
-#       function(parentRecord) { 
-#         var this_id = Creator.getObjectRecord()._id;
-#         return [["project_milestone","=",this_id]]
-#       }
-#     label: 子里程碑
-#     columns:
-#       - name
-#       - head_spaceuser
-#       - has_collection
-#       - project
-#       - kickoff
-#       - deadline
-#       - completed_date
-#   - project_task
-#   - cms_files
+

@@ -1,6 +1,5 @@
 name: projects_home
-__filename: >-
-  /workspace/steedos-ee/steedos-packages/project/main/default/pages/projects_home.page.yml
+__filename: /app/steedos-packages/project/main/default/pages/projects_home.page.yml
 is_active: true
 label: 项目首页
 pageAssignments: []

@@ -15,19 +15,57 @@ mobile_objects:
   - project_issue
   - project_log
   - project_time
-oauth2_enabled: false
-oauth2_logout_enabled: false
-objects:
-  - project
-  - project_program
-  - project_milestone
-  - project_task
-  - project_issue
-  - project_log
-  - project_time
-saml_enabled: false
-saml_logout_enabled: false
+showSidebar: true
 sort: 0
+tab_groups:
+  - group_name: 项目信息
+    default_open: true
+  - group_name: 客商信息
+    default_open: true
+tab_items:
+  projects_home:
+    group: 项目信息
+    index: 1
+  object_project:
+    group: 项目信息
+    index: 2
+  object_project_program:
+    group: 项目信息
+    index: 3
+  object_project_milestone:
+    group: 项目信息
+    index: 4
+  object_project_task:
+    group: 项目信息
+    index: 5
+  object_project_time:
+    group: 项目信息
+    index: 6
+  object_project_log:
+    group: 项目信息
+    index: 7
+  object_project_issue:
+    group: 项目信息
+    index: 8
+  object_accounts:
+    group: 客商信息
+    index: 9
+  object_contacts:
+    group: 客商信息
+    index: 10
+  object_accounts_qualification:
+    group: 客商信息
+    index: 11
 tabs:
   - projects_home
+  - object_project
+  - object_project_program
+  - object_project_milestone
+  - object_project_task
+  - object_project_time
+  - object_project_log
+  - object_project_issue
+  - object_accounts
+  - object_contacts
+  - object_accounts_qualification
 visible: true

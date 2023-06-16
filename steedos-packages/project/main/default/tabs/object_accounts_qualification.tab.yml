@@ -1,0 +1,7 @@
+name: object_accounts_qualification
+desktop: true
+label: 资质信息
+mobile: true
+object: accounts_qualification
+permissions: []
+type: object
