@@ -2,3 +2,35 @@ CustomApplications:
   projects:
     name: Project
     description: Manage the entire life cycle of the project through projects, tasks, milestones.
+CustomTabs:
+  projects_home: Home
+CustomLabels:
+  amis:
+    projects:
+      projects_overview: Project Overview
+      ongoing_projects: Ongoing Projects
+      pending_tasks: Pending Tasks
+      outstanding_issues: Outstanding Issues
+      hours_spent:  Hours Spent
+      item: item
+      items: items
+      hour: hour
+      hours: hours
+      task_status_distribution: Task Status Distribution
+      not_started: Not Started
+      in_progress: In Progress
+      completed: Completed
+      waiting_for_others: Waiting for Others
+      delayed: Delayed
+      tasks_to_be_completed: Tasks to be Completed
+      distribution_of_problem_types: Distribution of Problem Types
+      budget: Budget
+      resources: Resources
+      scope: Scope
+      plan: Plan
+      quality: Quality
+      risk: Risk
+      other: Other
+      issues_being_processed: Issues being Processed
+
+
