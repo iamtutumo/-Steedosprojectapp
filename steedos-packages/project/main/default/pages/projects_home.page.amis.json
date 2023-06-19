@@ -4,7 +4,7 @@
     "body": [
         {
             "type": "panel",
-            "title": "项目概览",
+            "title": "${'projects_home.projects_overview_title'|t}",
             "body": [
                 {
                     "type": "grid",
@@ -32,7 +32,7 @@
                                     "body": [
                                         {
                                             "type": "tpl",
-                                            "tpl": "<p>在建项目</p>\n<p><span style=\"font-size: 14pt; color: #3598db;\">${count} 个</span></p>",
+                                            "tpl": "<p>${'projects_home.ongoing_projects'|t}</p>\n<p><span style=\"font-size: 14pt; color: #3598db;\">${count} ${(count>1 ? 'projects_home.items' : 'projects_home.item')|t}</span></p>",
                                             "inline": false,
                                             "id": "u:ae58a1da0146",
                                             "style": {
@@ -68,7 +68,7 @@
                                     "body": [
                                         {
                                             "type": "tpl",
-                                            "tpl": "<p>待完成任务</p>\n<p><span style=\"font-size: 14pt; color: #3598db;\">${count} 个</span></p>",
+                                            "tpl": "<p>${'projects_home.pending_tasks'|t}</p>\n<p><span style=\"font-size: 14pt; color: #3598db;\">${count} ${(count>1 ? 'projects_home.items' : 'projects_home.item')|t}</span></p>",
                                             "inline": false,
                                             "id": "u:ae58a1da0146",
                                             "style": {
@@ -104,7 +104,7 @@
                                     "body": [
                                         {
                                             "type": "tpl",
-                                            "tpl": "<p>待处理问题</p>\n<p><span style=\"font-size: 14pt; color: #3598db;\">${count} 个</span></p>",
+                                            "tpl": "<p>${'projects_home.outstanding_issues'|t}</p>\n<p><span style=\"font-size: 14pt; color: #3598db;\">${count} ${(count>1 ? 'projects_home.items' : 'projects_home.item')|t}</span></p>",
                                             "inline": false,
                                             "id": "u:ae58a1da0146",
                                             "style": {
@@ -140,7 +140,7 @@
                                     "body": [
                                         {
                                             "type": "tpl",
-                                            "tpl": "<p>已花费工时</p>\n<p><span style=\"font-size: 14pt; color: #3598db;\">${sum} 小时</span></p>",
+                                            "tpl": "<p>${'projects_home.hours_spent'|t}</p>\n<p><span style=\"font-size: 14pt; color: #3598db;\">${sum} ${(sum>1 ? 'projects_home.hours' : 'projects_home.hour')|t}</span></p>",
                                             "inline": false,
                                             "id": "u:ae58a1da0146",
                                             "style": {
@@ -172,7 +172,7 @@
         },
         {
             "type": "panel",
-            "title": "项目执行情况",
+            "title": "${'projects_home.project_execution_status_title'|t}",
             "body": [
                 {
                     "type": "chart",
@@ -198,7 +198,7 @@
                         "yAxis": [
                             {
                                 "type": "value",
-                                "name": "问题",
+                                "name": "${'projects_home.issues'|t}",
                                 "position": "right",
                                 "alignTicks": true,
                                 "axisLine": {
@@ -213,7 +213,7 @@
                             },
                             {
                                 "type": "value",
-                                "name": "任务",
+                                "name": "${'projects_home.tasks'|t}",
                                 "position": "right",
                                 "alignTicks": true,
                                 "offset": 80,
@@ -229,7 +229,7 @@
                             },
                             {
                                 "type": "value",
-                                "name": "工时",
+                                "name": "${'projects_home.person_hours'|t}",
                                 "position": "left",
                                 "alignTicks": true,
                                 "axisLine": {
@@ -245,18 +245,18 @@
                         ],
                         "series": [
                             {
-                                "name": "问题",
+                                "name": "${'projects_home.issues'|t}",
                                 "type": "bar",
                                 "data": "${open_issuesData}"
                             },
                             {
-                                "name": "任务",
+                                "name": "${'projects_home.tasks'|t}",
                                 "type": "bar",
                                 "yAxisIndex": 1,
                                 "data": "${open_tasksData}"
                             },
                             {
-                                "name": "工时",
+                                "name": "${'projects_home.person_hours'|t}",
                                 "type": "line",
                                 "yAxisIndex": 2,
                                 "data": "${project_laborData}"
