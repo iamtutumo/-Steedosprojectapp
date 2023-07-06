@@ -1,6 +1,6 @@
 {
     "name": "@steedos-labs/project",
-    "version": "2.2.5",
+    "version": "2.2.6",
     "description": "",
     "main": "package.service.js",
     "license": "MIT",
