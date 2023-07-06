@@ -2,6 +2,9 @@ CustomApplications:
   projects:
     name: Project
     description: Manage the entire life cycle of the project through projects, tasks, milestones.
+    groups:
+      项目信息: Project Information
+      客商信息: Customer/Merchant Information
 CustomTabs:
   projects_home: Home
 CustomLabels:

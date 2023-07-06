@@ -1,0 +1,34 @@
+fields:
+  address:
+    label: Company Address
+    help: 
+    description: 
+  company_id:
+    label: Affiliated Unit
+    help: 
+    description: 
+  company_type:
+    label: Enterprise Nature
+    help: 
+    description: 
+    options:
+      - label: State Enterprise
+        value: 国企
+      - label: Private Enterprise
+        value: 民企
+      - label: Foreign Enterprises
+        value: 外企
+      - label: Collective Enterprise
+        value: 集体企业
+  legal_representative:
+    label: Legal Representative
+    help: 
+    description: 
+  register_date:
+    label: Date of Establishment
+    help: 
+    description: 
+  registered_capital:
+      label: Registered Capital
+      help: 
+      description: 

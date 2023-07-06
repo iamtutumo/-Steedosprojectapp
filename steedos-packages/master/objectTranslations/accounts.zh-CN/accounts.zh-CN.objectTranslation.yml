@@ -1,0 +1,34 @@
+fields:
+  address:
+    label: 公司地址
+    help: 
+    description: 
+  company_id:
+    label: 所属单位
+    help: 
+    description: 
+  company_type:
+    label: 企业性质
+    help: 
+    description: 
+    options:
+      - label: 国企
+        value: 国企
+      - label: 民企
+        value: 民企
+      - label: 外企
+        value: 外企
+      - label: 集体企业
+        value: 集体企业
+  legal_representative:
+    label: 法定代表人
+    help: 
+    description: 
+  register_date:
+    label: 成立日期
+    help: 
+    description: 
+  registered_capital:
+      label: 注册资金
+      help: 
+      description: 

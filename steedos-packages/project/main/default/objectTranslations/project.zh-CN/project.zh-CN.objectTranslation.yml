@@ -14,42 +14,6 @@ fields:
     label: 我方单位
     help: 
     description: 
-  contract:
-    label: 合同
-    help: 
-    description: 
-  contracts_all_income:
-    label: 总应收款
-    help: 
-    description: 
-  contracts_all_pay:
-    label: 总应付款
-    help: 
-    description: 
-  contracts_made_invoice:
-    label: 已开票
-    help: 
-    description: 
-  contracts_paid_pay:
-    label: 总已付款
-    help: 
-    description: 
-  contracts_received_income:
-    label: 总已收款
-    help: 
-    description: 
-  contracts_received_invoice:
-    label: 已收票
-    help: 
-    description: 
-  contracts_waiting_income:
-    label: 总待收款
-    help: 
-    description: 
-  contracts_waiting_pay:
-    label: 总待付款
-    help: 
-    description: 
   count_milestones:
     label: 里程碑总数
     help: 
@@ -165,10 +129,8 @@ fields:
     help: 
     description: 
 groups:
-  付款合同: 付款合同
   任务与问题: 任务与问题
   成本: 成本
-  收款合同: 收款合同
   预算与执行: 预算与执行
 listviews:
   all:

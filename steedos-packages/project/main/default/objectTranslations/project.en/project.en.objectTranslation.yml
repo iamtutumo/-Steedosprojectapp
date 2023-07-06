@@ -14,42 +14,6 @@ fields:
     label: Company
     help: 
     description: 
-  contract:
-    label: Contract
-    help: 
-    description: 
-  contracts_all_income:
-    label: Total Receivables
-    help: 
-    description: 
-  contracts_all_pay:
-    label: Total Payables
-    help: 
-    description: 
-  contracts_made_invoice:
-    label: Invoiced
-    help: 
-    description: 
-  contracts_paid_pay:
-    label: Total Paid
-    help: 
-    description: 
-  contracts_received_income:
-    label: Total Received
-    help: 
-    description: 
-  contracts_received_invoice:
-    label: Received Invoice
-    help: 
-    description: 
-  contracts_waiting_income:
-    label: Total Receivables
-    help: 
-    description: 
-  contracts_waiting_pay:
-    label: Total Payables
-    help: 
-    description: 
   count_milestones:
     label: Total Milestones
     help: 
@@ -165,10 +129,8 @@ fields:
     help: 
     description: 
 groups:
-  付款合同: Payment Contract
   任务与问题: Tasks and Problems
   成本: Cost
-  收款合同: Receivables Contract
   预算与执行: Budget and Execution.
 listviews:
   all:

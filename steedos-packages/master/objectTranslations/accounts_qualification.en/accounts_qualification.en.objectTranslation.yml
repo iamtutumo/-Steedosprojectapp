@@ -1,0 +1,33 @@
+name: accounts_qualification
+label: Qualification Information
+description: 
+fields:
+  accounts:
+    label: Related Business Partners
+    help: 
+    description: 
+  end:
+    label: Qualification Expiration Date
+    help: 
+    description: 
+  file:
+    label: Qualification Documents
+    help: 
+    description: 
+  name:
+    label: Qualification Name
+    help: 
+    description: 
+  remark:
+    label: Remarks
+    help: 
+    description: 
+  start:
+    label: Qualification Start Date
+    help: 
+    description: 
+listviews:
+  all:
+    label: All
+  recent:
+    label: Recently Viewed

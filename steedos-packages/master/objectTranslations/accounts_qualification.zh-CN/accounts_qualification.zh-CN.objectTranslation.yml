@@ -1,0 +1,33 @@
+name: accounts_qualification
+label: 资质信息
+description: 
+fields:
+  accounts:
+    label: 相关业务伙伴
+    help: 
+    description: 
+  end:
+    label: 资质有效期止
+    help: 
+    description: 
+  file:
+    label: 资质证件
+    help: 
+    description: 
+  name:
+    label: 资质名称
+    help: 
+    description: 
+  remark:
+    label: 备注
+    help: 
+    description: 
+  start:
+    label: 资质有效期起
+    help: 
+    description: 
+listviews:
+  all:
+    label: 所有
+  recent:
+    label: 最近查看
