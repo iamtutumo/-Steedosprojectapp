@@ -9,6 +9,7 @@ CustomTabs:
   projects_home: 首页
 CustomLabels:
   projects_home:
+    projects_overview_title: 项目概览
     projects_overview: 项目概览
     ongoing_projects: 在建项目
     pending_tasks: 待完成任务
