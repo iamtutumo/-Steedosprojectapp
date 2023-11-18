@@ -1,0 +1,4 @@
+name: parent
+label: 父Transaction
+reference_to: transaction__c
+type: lookup

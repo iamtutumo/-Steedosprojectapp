@@ -1,0 +1,45 @@
+name: default
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+fields:
+  - field_name: opp_id__c
+    is_required: false
+  - field_name: credit_amount__c
+    is_required: false
+  - field_name: payment_date__c
+    is_required: false
+  - field_name: payment_mode__c
+    is_required: false
+  - field_name: receipt_no__c
+    is_required: false
+  - field_name: transaction_status__c
+    is_required: false
+  - field_name: outtxid__c
+  - field_name: transid__c
+  - field_name: cname__c
+  - field_name: trecordtype__c
+    is_required: false
+  - field_name: clientoppid__c
+  - field_name: loan_id__c
+  - field_name: tranaction_resourceid__c
+  - field_name: fee_amount__c
+  - field_name: fee_type__c
+  - field_name: account_lookup__c
+label: Default
+object_name: transaction__c
+profiles:
+  - user
+  - supplier
+  - customer
+  - admin
+related_lists:
+  - related_field_fullname: instances.record_ids
+    field_names:
+      - name
+      - applicant
+      - applicant_organization
+      - modified
+      - state
+type: record

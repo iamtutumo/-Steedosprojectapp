@@ -1,0 +1,5 @@
+name: web_name
+group: Web information
+label: Web name
+sort_no: 260
+type: text

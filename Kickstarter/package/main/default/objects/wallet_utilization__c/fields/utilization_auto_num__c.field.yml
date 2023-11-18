@@ -1,0 +1,12 @@
+name: utilization_auto_num__c
+filterable: false
+formula: 'WU-{YYYY}-{MM}-{00000}'
+generated: false
+index: false
+is_name: true
+is_wide: false
+label: Utilization Auto Num
+primary: false
+sort_no: 150
+sortable: false
+type: autonumber

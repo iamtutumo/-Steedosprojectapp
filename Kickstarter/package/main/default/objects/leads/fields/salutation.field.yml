@@ -1,0 +1,9 @@
+name: salutation
+label: Salutation
+options:
+  - label: Male
+    value: Male
+  - label: female
+    value: Female
+sort_no: 130
+type: select

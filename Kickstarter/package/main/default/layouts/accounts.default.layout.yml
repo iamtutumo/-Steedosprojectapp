@@ -1,0 +1,320 @@
+name: default
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+fields:
+  - field_name: name
+    is_required: true
+  - field_name: mcurl__c
+    group: ''
+  - field_name: credit_code
+    is_required: true
+  - field_name: nickname
+    is_required: false
+  - field_name: company_type
+    is_required: true
+  - field_name: business_license
+    is_required: false
+  - field_name: legal_representative
+  - field_name: business_scope
+  - field_name: is_supplier
+  - field_name: cid__c
+    is_required: false
+    group: ''
+  - field_name: is_customer
+  - field_name: type
+  - field_name: parent_id
+  - field_name: address
+    is_required: false
+  - field_name: website
+    is_required: false
+  - field_name: phone
+  - field_name: fax
+    is_required: false
+  - field_name: industry
+  - field_name: number_of_employees
+  - field_name: registered_capital
+  - field_name: state
+  - field_name: register_date
+  - field_name: due_date
+  - field_name: billing_address
+    group: 地址信息
+  - field_name: shipping_address
+    group: 地址信息
+  - field_name: account_number
+  - field_name: rating
+  - field_name: company_id
+    is_required: true
+  - field_name: invoice_address
+    group: 开票信息
+  - field_name: status
+    is_readonly: false
+    is_required: true
+  - field_name: invoice_phone
+    group: 开票信息
+  - field_name: invoice_bank
+    group: 开票信息
+  - field_name: invoice_combinenum
+    group: 开票信息
+  - field_name: account_source
+  - field_name: site
+  - field_name: annual_revenue
+  - field_name: ownership
+  - field_name: account_division
+  - field_name: partner_account
+  - field_name: assistant
+  - field_name: asst_phone
+  - field_name: owner
+  - field_name: birthdate
+  - field_name: description
+  - field_name: department
+  - field_name: email
+  - field_name: do_not_call
+  - field_name: has_opted_out_of_email
+  - field_name: fax_opt_out
+  - field_name: home_phone
+  - field_name: lead_source
+  - field_name: mailing_city
+    group: 地址信息
+  - field_name: mailing_street
+    group: 地址信息
+  - field_name: mailing_zip
+    group: 地址信息
+  - field_name: other_city
+    group: 其他地址信息
+  - field_name: other_street
+    group: 其他地址信息
+  - field_name: other_zip
+    group: 其他地址信息
+  - field_name: mobile
+  - field_name: salutation
+  - field_name: other_phone
+  - field_name: locked
+  - field_name: company_ids
+  - field_name: instance_state
+  - field_name: process_state
+  - field_name: created
+    is_readonly: true
+    group: System Information
+  - field_name: created_by
+    is_readonly: true
+    group: System Information
+  - field_name: modified
+    is_readonly: true
+    group: System Information
+  - field_name: modified_by
+    is_readonly: true
+    group: System Information
+  - field_name: space
+  - field_name: is_deleted
+  - field_name: deleted
+    is_readonly: true
+  - field_name: deleted_by
+    is_readonly: true
+  - field_name: instances
+  - field_name: instances.$._id
+  - field_name: instances.$.state
+  - field_name: sharing
+  - field_name: sharing.$
+  - field_name: sharing.$.u
+  - field_name: sharing.$.o
+  - field_name: sharing.$.r
+  - field_name: message_count
+  - field_name: _table
+  - field_name: _table._id
+  - field_name: _table._code
+  - field_name: record_permissions
+  - field_name: loanactive__c
+  - field_name: wallet_active__c
+  - field_name: message_language__c
+  - field_name: formatted_cell__c
+  - field_name: mess_lang__c
+  - {}
+label: Default
+object_name: accounts
+profiles:
+  - admin
+  - user
+related_lists:
+  - related_field_fullname: opportunity.account
+    field_names:
+      - name
+      - account
+      - amount
+      - due_date
+      - stage
+      - probability
+      - lead_source
+      - owner
+  - related_field_fullname: wallet__c.account_id__c
+    field_names:
+      - account_id__c
+      - wallet_id__c
+      - walo__c
+      - mifosclientid__c
+      - clientid__c
+      - name
+      - wallet_on__c
+  - related_field_fullname: cms_files.parent
+    field_names:
+      - name
+      - size
+      - owner
+      - created
+      - modified
+  - related_field_fullname: contacts.account
+    field_names:
+      - name
+      - account
+      - email
+      - phone
+  - related_field_fullname: accounts_qualification.accounts
+    field_names:
+      - name
+      - start
+      - end
+      - file
+      - remark
+  - related_field_fullname: contract_receipts.account
+    field_names:
+      - name
+      - receipts_name
+      - contract
+      - amount
+      - receipts_proportion
+      - due_date
+      - account
+      - currency
+  - related_field_fullname: account_banks.account
+    field_names:
+      - accnum
+      - accname
+      - pk_bankdoc
+      - account
+      - accountproperty
+      - accstate
+      - pk_currtype
+      - enablestate
+  - related_field_fullname: account_contact_relationship.account_id
+    field_names:
+      - number
+      - account_id
+      - is_direct
+      - contact_id
+      - start_date
+      - end_date
+  - related_field_fullname: agreement.account_id
+    field_names:
+      - agreement_number
+      - account_id
+      - status
+      - start_date
+      - end_date
+      - agreement_term
+      - owner
+  - related_field_fullname: asset.account
+    field_names:
+      - name
+      - asset_number
+      - product
+      - price
+      - status
+      - purchased_date
+      - account
+      - contact
+  - related_field_fullname: contract_payments.account
+    field_names:
+      - name
+      - payment_name
+      - contract
+      - amount
+      - pay_proportion
+      - due_date
+      - account
+      - currency
+  - related_field_fullname: contract_othercompany.othercompany_name
+    field_names:
+      - name
+      - othercompany_name
+      - credit_code
+      - contacts_name
+  - related_field_fullname: order.account_id
+    field_names:
+      - order_number
+      - account_id
+      - agreement_id
+      - effective_date
+      - type
+      - status
+  - related_field_fullname: case.account_id
+    field_names:
+      - case_number
+      - subject
+      - account_id
+      - case_reason
+      - priority
+      - status
+      - type
+  - related_field_fullname: leads.converted_account
+    field_names:
+      - name
+      - company
+      - owner
+      - rating
+      - lead_source
+      - status
+      - created
+  - related_field_fullname: accounts.parent_id
+    field_names:
+      - name
+      - phone
+      - address
+      - is_customer
+      - is_supplier
+      - credit_code
+      - company_type
+      - status
+  - related_field_fullname: contracts.othercompany
+    field_names:
+      - 'no'
+      - name
+      - contract_type
+      - othercompany
+      - amount
+      - cash_flow_type
+      - contract_fulfillment_state
+      - signed_date
+      - owner
+      - created
+  - related_field_fullname: quote.account_id
+    field_names:
+      - name
+      - opportunity_id
+      - expiration_date
+      - is_syncing
+      - status
+      - grand_total
+  - related_field_fullname: tasks.related_to
+    field_names:
+      - name
+      - due_date
+      - state
+      - priority
+      - assignees
+      - related_to
+  - related_field_fullname: events.related_to
+    field_names:
+      - name
+      - start
+      - end
+      - assignees
+      - related_to
+  - related_field_fullname: instances.record_ids
+    field_names:
+      - name
+      - applicant
+      - applicant_organization
+      - modified
+      - state
+type: record

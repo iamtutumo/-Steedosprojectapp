@@ -1,0 +1,5 @@
+name: partner_account
+hidden: true
+label: Partner Account
+sort_no: 340
+type: text

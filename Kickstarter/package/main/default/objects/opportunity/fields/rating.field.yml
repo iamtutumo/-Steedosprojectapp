@@ -1,0 +1,14 @@
+name: rating
+filterable: true
+label: Rating
+options:
+  - label: Hot
+    value: Hot
+  - label: Warm
+    value: Warm
+  - label: Cold
+    value: Cold
+searchable: true
+sort_no: 180
+sortable: true
+type: select

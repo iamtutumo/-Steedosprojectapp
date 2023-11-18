@@ -1,0 +1,6 @@
+name: is_active
+defaultValue: true
+inlineHelpText: Indicates whether the contact is actively involved with the company.
+label: enable
+sort_no: 120
+type: toggle

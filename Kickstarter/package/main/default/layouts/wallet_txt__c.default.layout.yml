@@ -1,0 +1,47 @@
+name: default
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+fields:
+  - field_name: name
+    is_required: true
+  - field_name: wallet_id__c
+    is_required: false
+  - field_name: wallet_autonum__c
+  - field_name: w_payment_date__c
+    is_required: false
+  - field_name: w_payment_mode__c
+    is_required: false
+  - field_name: w_receipt_number__c
+    is_required: false
+  - field_name: w_amount__c
+    is_required: false
+  - field_name: transaction_status__c
+    is_required: false
+  - field_name: mifos_txt_status__c
+    is_required: false
+  - field_name: w_txt_id__c
+  - field_name: mifos_wallet_id__c
+  - field_name: walletresourceid__c
+label: Default
+object_name: wallet_txt__c
+profiles:
+  - user
+related_lists:
+  - related_field_fullname: tasks.related_to
+    field_names:
+      - name
+      - due_date
+      - state
+      - priority
+      - assignees
+      - related_to
+  - related_field_fullname: instances.record_ids
+    field_names:
+      - name
+      - applicant
+      - applicant_organization
+      - modified
+      - state
+type: record

@@ -1,0 +1,5 @@
+name: start_date
+inlineHelpText: The date the relationship between the account and contact began. Use with the end date field to maintain relationship history.
+label: start date
+sort_no: 140
+type: date

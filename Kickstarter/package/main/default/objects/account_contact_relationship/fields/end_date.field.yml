@@ -1,0 +1,5 @@
+name: end_date
+inlineHelpText: The date the relationship between the account and contact ended. Use with the start date field to maintain relationship history.
+label: end date
+sort_no: 160
+type: date

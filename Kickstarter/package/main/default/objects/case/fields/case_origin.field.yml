@@ -1,0 +1,14 @@
+name: case_origin
+label: Case source
+options:
+  - label: e-mail
+    value: Email
+  - label: Telephone
+    value: Phone
+  - label: Web page
+    value: Web
+required: true
+searchable: true
+sort_no: 180
+sortable: true
+type: select

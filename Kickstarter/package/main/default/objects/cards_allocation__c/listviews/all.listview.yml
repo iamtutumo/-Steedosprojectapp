@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+  - field: card_number__c
+  - field: card_status__c
+  - field: card_autonum__c
+  - field: card_18_digit__c
+  - field: wallet__c
+filter_scope: space
+filters: []
+label: 所有
+mobile_columns: []
+scrolling_mode: standard
+shared: true
+sort: []
+sort_no: 100
+type: grid

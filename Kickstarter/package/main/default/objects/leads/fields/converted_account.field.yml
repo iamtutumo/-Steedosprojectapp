@@ -1,0 +1,6 @@
+name: converted_account
+hidden: true
+label: Converted customers
+reference_to: accounts
+sort_no: 380
+type: lookup

@@ -1,0 +1,6 @@
+name: private
+hidden: true
+inlineHelpText: 
+label: private
+sort_no: 280
+type: boolean

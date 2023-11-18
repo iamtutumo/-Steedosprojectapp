@@ -1,0 +1,4 @@
+name: recent
+filter_scope: space
+label: Recently viewed
+shared: true

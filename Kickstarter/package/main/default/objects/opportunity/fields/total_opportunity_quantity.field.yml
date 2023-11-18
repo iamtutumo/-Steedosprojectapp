@@ -1,0 +1,6 @@
+name: total_opportunity_quantity
+hidden: true
+inlineHelpText: If the opportunity has products, the total of all quantity field values ​​for all products in the Products related list. Generic field if the opportunity has no products.
+label: quantity
+sort_no: 320
+type: number

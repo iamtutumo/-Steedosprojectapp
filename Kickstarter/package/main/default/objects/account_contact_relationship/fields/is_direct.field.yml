@@ -1,0 +1,6 @@
+name: is_direct
+inlineHelpText: >-
+ Indicates whether the customer associated with the contact is the contact's primary customer. This read-only field is based on the customer name in the contact record. For example, in a Baidu customer record, the related list of related contacts automatically includes all contacts who have Baidu in the customer name field and marks them as direct contacts.
+label: direct
+sort_no: 150
+type: boolean

@@ -1,0 +1,23 @@
+name: roles
+inlineHelpText: The contact's role in the opportunity; for example: buyer, decision maker, or evaluator. You can select multiple roles for a contact.
+label: Role
+multiple: true
+options:
+  - label: ordinary people
+    value: Ordinary
+  - label: decision maker
+    value: Policymaker
+  - label: sub-decision maker
+    value: Itemize_Policymaker
+  - label: business decisions
+    value: Business_Decision
+  - label: technical decisions
+    value: Tech_Decision
+  - label: financial decisions
+    value: Finance_Decision
+  - label: user
+    value: Recipient
+  - label: Opinions influence people
+    value: Opinions_People
+sort_no: 140
+type: select

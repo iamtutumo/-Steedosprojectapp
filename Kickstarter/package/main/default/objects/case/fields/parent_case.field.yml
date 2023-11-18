@@ -1,0 +1,6 @@
+name: parent_case
+hidden: true
+label: parent case
+reference_to: case
+sort_no: 350
+type: lookup

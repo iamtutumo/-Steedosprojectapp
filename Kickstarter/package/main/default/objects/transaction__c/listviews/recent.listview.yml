@@ -1,0 +1,21 @@
+name: recent
+columns:
+  - field: name
+  - field: opp_id__c
+  - field: credit_amount__c
+  - field: payment_date__c
+  - field: payment_mode__c
+  - field: receipt_no__c
+  - field: transaction_status__c
+  - field: outtxid__c
+  - field: transid__c
+filter_scope: space
+filters: []
+label: 最近查看
+mobile_columns: []
+scrolling_mode: standard
+shared: true
+show_count: true
+sort: []
+sort_no: 100
+type: grid

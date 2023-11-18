@@ -1,0 +1,17 @@
+name: forecast_category
+hidden: true
+inlineHelpText: The name of the forecast category displayed in reports, opportunity details and edit pages, opportunity searches, and opportunity list views. An opportunity's settings are tied to its stages.
+label: Prediction category
+options:
+  - label: Omit 
+    value: Omit
+  - label: Sales_Funnel
+    value: Sales_Funnel
+  - label: Maximum_Amount
+    value: Maximum_Amount
+  - label: Submit
+    value: Submit
+  - label: Close
+    value: Close
+sort_no: 340
+type: select

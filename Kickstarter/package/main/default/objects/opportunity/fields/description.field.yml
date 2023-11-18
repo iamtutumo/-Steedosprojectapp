@@ -1,0 +1,7 @@
+name: description
+group: Remarks
+is_wide: true
+label: describe
+rows: 3
+sort_no: 270
+type: textarea

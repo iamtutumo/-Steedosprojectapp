@@ -1,0 +1,28 @@
+name: status
+defaultValue: New
+filterable: true
+label: Status
+options:
+  - label: New
+    value: New
+  - label: Working
+    value: Working
+  - label: Nurturing
+    value: Nurturing
+  - label: Qualified
+    value: Qualified
+  - label: Unqualified
+    value: Unqualified
+  - label: Others
+    value: Others
+  - label: Not_Available
+    value: Not_Available
+  - label: Agent
+    value: Agent
+  - label: Business
+    value: Business
+required: true
+searchable: true
+sort_no: 100
+sortable: true
+type: select

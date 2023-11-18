@@ -1,0 +1,10 @@
+name: all
+columns:
+  - number
+  - opportunity_id
+  - contact_id
+  - is_primary
+  - roles
+filter_scope: space
+label: All Opportunity Contacts
+shared: true

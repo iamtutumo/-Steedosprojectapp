@@ -1,0 +1,14 @@
+name: transid__c
+data_type: text
+filterable: false
+formula: _id
+formula_blank_value: zeroes
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Tran 18 digit id
+primary: false
+sort_no: 180
+sortable: false
+type: formula

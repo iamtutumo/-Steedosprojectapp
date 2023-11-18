@@ -1,0 +1,21 @@
+name: mifos_txt_status__c
+defaultValue: Not Created
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Mifos TXT Status
+multiple: false
+options:
+  - label: Not Created
+    value: Not Created
+    color: 80777a
+  - label: Created
+    value: Created
+    color: df1853
+primary: false
+required: false
+sort_no: 180
+sortable: false
+type: select

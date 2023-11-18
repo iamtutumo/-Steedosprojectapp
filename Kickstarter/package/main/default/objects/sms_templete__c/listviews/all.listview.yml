@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+  - field: subject__c
+  - field: body__c
+  - field: code__c
+  - field: message_language__c
+  - field: templet_id__c
+filter_scope: space
+filters: []
+label: 所有
+mobile_columns: []
+scrolling_mode: standard
+shared: true
+sort: []
+sort_no: 100
+type: grid

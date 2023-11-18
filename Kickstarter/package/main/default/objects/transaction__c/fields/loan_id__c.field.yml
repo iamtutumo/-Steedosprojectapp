@@ -1,0 +1,12 @@
+name: loan_id__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Loan ID
+primary: false
+required: false
+sort_no: 250
+sortable: false
+type: text

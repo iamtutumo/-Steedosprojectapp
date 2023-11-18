@@ -1,0 +1,5 @@
+name: contact_email
+label: Contact email
+readonly: true
+sort_no: 130
+type: email

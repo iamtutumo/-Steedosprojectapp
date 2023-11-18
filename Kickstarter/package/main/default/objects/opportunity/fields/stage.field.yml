@@ -1,0 +1,21 @@
+name: stage
+inlineHelpText: >-
+  Administrators associate the values ​​in this picklist with the Forecast Category value that determines how the opportunity contributes to your forecast. If the original date is in the future, then when you set the stage for an open opportunity to Closed/Won, the close date is set to UTC
+  (UTC) current date. At a certain time of day, UTC may be one day different from your time zone. If the close date is the date the opportunity closed in the past, the date cannot be changed.
+label: Business opportunity stage
+options:
+  - label: Initial communication
+    value: Qualification
+  - label: Project establishment tracking
+    value: Needs_Analysis
+  - label: Submit plan
+    value: Proposal
+  - label: business negotiation
+    value: Negotiation
+  - label: Winning order
+    value: Closed_Won
+  - label: lose order
+    value: Closed_Lost
+required: true
+sort_no: 150
+type: select

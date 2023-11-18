@@ -1,0 +1,5 @@
+name: fax_opt_out
+hidden: true
+label: Exit fax list
+sort_no: 320
+type: boolean

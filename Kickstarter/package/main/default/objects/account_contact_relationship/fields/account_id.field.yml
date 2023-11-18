@@ -1,0 +1,8 @@
+name: account_id
+inlineHelpText: The name of the company associated with the contact.
+label: client
+reference_to: accounts
+required: true
+searchable: true
+sort_no: 130
+type: master_detail

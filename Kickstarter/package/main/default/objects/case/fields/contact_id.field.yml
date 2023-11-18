@@ -1,0 +1,5 @@
+name: contact_id
+label: Contact name
+reference_to: contacts
+sort_no: 140
+type: master_detail

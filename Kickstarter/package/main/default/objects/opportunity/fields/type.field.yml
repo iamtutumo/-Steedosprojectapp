@@ -1,0 +1,10 @@
+name: type
+inlineHelpText: The type of opportunity, such as "Existing Business" or "New Business".
+label: Opportunity type
+options:
+  - label: Existing business
+    value: Existing_Business
+  - label: 新业务
+    value: New_Business
+sort_no: 140
+type: select

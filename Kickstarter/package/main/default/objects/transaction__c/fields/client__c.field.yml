@@ -1,0 +1,14 @@
+name: client__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Client Name
+primary: false
+reference_to: accounts
+required: false
+sort_no: 220
+sortable: false
+type: master_detail
+write_requires_master_read: false

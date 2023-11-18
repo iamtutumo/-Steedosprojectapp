@@ -1,0 +1,25 @@
+name: transaction_status__c
+data_type: text
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Transaction Status
+multiple: false
+options:
+  - label: Success
+    value: Success
+  - label: Rejected
+    value: Rejected
+  - label: Submitted
+    value: Submitted
+  - label: draft
+    value: draft
+  - label: Waived
+    value: Waived
+primary: false
+required: false
+sort_no: 160
+sortable: false
+type: select

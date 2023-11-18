@@ -1,0 +1,14 @@
+name: wallet_id_lookup__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Wallet ID
+multiple: false
+primary: false
+reference_to: wallet__c
+required: false
+sort_no: 110
+sortable: false
+type: lookup

@@ -1,0 +1,5 @@
+name: read
+hidden: true
+label: Read
+sort_no: 350
+type: boolean

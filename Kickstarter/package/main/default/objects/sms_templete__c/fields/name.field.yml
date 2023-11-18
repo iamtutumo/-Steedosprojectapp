@@ -1,0 +1,6 @@
+name: name
+index: true
+label: Template Name
+required: true
+sort_no: 100
+type: text

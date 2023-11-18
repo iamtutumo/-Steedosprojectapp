@@ -1,0 +1,8 @@
+name: opportunity_id
+inlineHelpText: The name of the opportunity associated with the contact.
+label: Business opportunity name
+reference_to: opportunity
+required: true
+searchable: true
+sort_no: 110
+type: master_detail

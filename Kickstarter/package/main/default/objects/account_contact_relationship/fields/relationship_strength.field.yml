@@ -1,0 +1,13 @@
+name: relationship_strength
+filterable: true
+label: intimacy
+options:
+  - label: Friendship
+    value: Friends
+  - label: general relationship
+    value: Normal
+  - label: first acquaintance
+    value: New
+sort_no: 110
+sortable: true
+type: select

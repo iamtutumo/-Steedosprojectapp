@@ -1,0 +1,14 @@
+name: utilization_id__c
+data_type: text
+filterable: false
+formula: _id
+formula_blank_value: zeroes
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Utilization ID
+primary: false
+sort_no: 140
+sortable: false
+type: formula

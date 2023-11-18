@@ -1,0 +1,27 @@
+name: w_payment_mode__c
+data_type: text
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Payment Mode
+multiple: false
+options:
+  - label: MTN Uganda
+    value: '1'
+    color: FFFF00
+  - label: Airtel Uganda
+    value: '2'
+    color: Ff0000
+  - label: Bank Deposit
+    value: '3'
+    color: b1b1ff
+  - label: Cash
+    value: '4'
+    color: f8cee8
+primary: false
+required: false
+sort_no: 140
+sortable: false
+type: select

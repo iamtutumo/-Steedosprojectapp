@@ -1,0 +1,7 @@
+name: contact_id
+inlineHelpText: The names of people associated with the customer.
+label: Contact person
+reference_to: contacts
+searchable: true
+sort_no: 170
+type: lookup

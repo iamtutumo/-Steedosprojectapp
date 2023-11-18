@@ -1,0 +1,22 @@
+name: all
+columns:
+  - field: name
+  - field: wallet_id__c
+  - field: wallet_autonum__c
+  - field: w_payment_date__c
+  - field: w_payment_mode__c
+  - field: w_receipt_number__c
+  - field: w_amount__c
+  - field: transaction_status__c
+  - field: mifos_txt_status__c
+  - field: instance_state
+filter_scope: space
+filters: []
+label: 所有
+mobile_columns: []
+scrolling_mode: standard
+shared: true
+show_count: true
+sort: []
+sort_no: 100
+type: grid

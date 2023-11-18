@@ -1,0 +1,17 @@
+name: loss_reason
+label: Loss Reason
+options:
+  - label: Lost_to_Competitor
+    value: Lost_to_Competitor
+  - label: No_Budget_Lost_Funding
+    value: No_Budget_Lost_Funding
+  - label: No_Decision_Non
+    value: No_Decision_Non-Responsive
+  - label: Price
+    value: Price
+  - label: Other
+    value: Other
+searchable: true
+sort_no: 240
+sortable: true
+type: select

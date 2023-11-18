@@ -1,0 +1,7 @@
+name: expected_revenue
+data_type: currency
+formula: 'ROUND(amount * (VALUE(TEXT(probability)) * 0.01),2)'
+inlineHelpText: Revenue based on dollar amount and opportunity win rate.
+label: Forecast revenue
+sort_no: 330
+type: formula

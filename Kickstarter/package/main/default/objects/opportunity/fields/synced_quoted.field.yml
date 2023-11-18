@@ -1,0 +1,6 @@
+name: synced_quoted
+hidden: true
+inlineHelpText: Quotes synced to opportunities. Only one quote can be synced to an opportunity.
+label: Synchronized quotes
+sort_no: 310
+type: boolean

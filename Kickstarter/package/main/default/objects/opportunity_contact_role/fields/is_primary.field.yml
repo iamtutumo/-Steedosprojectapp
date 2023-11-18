@@ -1,0 +1,5 @@
+name: is_primary
+inlineHelpText: Hit ✔ to indicate that this contact is the primary contact for the business opportunity. 
+label: main
+sort_no: 130
+type: boolean

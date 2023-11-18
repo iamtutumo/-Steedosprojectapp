@@ -1,0 +1,189 @@
+name: default
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+fields:
+  - field_name: terri__c
+  - field_name: name
+    is_required: true
+  - field_name: owner
+  - field_name: principle__c
+    is_required: false
+  - field_name: account
+    is_required: true
+  - field_name: due_date
+    is_required: true
+  - field_name: type
+  - field_name: stage
+    is_required: true
+  - field_name: campaign_id
+  - field_name: probability
+  - field_name: rating
+  - field_name: opp_name__c
+  - field_name: price_book_id
+  - field_name: l_numb__c
+  - field_name: budget_confirmed
+  - field_name: amount
+  - field_name: discovery_completed
+  - field_name: roi_analysis_completed
+  - field_name: loss_reason
+  - field_name: next_step
+  - field_name: lead_source
+  - field_name: description
+    group: 备注信息
+  - field_name: private
+  - field_name: iq_score
+  - field_name: total_opportunity_quantity
+  - field_name: expected_revenue
+  - field_name: forecast_category
+  - field_name: opportunity_currency
+  - field_name: partner_account
+    is_readonly: true
+  - field_name: locked
+  - field_name: company_id
+  - field_name: company_ids
+  - field_name: instance_state
+  - field_name: process_state
+  - field_name: created
+    is_readonly: true
+    group: System Information
+  - field_name: created_by
+    is_readonly: true
+    group: System Information
+  - field_name: modified
+    is_readonly: true
+    group: System Information
+  - field_name: modified_by
+    is_readonly: true
+    group: System Information
+  - field_name: space
+  - field_name: is_deleted
+  - field_name: deleted
+    is_readonly: true
+  - field_name: deleted_by
+    is_readonly: true
+  - field_name: instances
+  - field_name: instances.$._id
+  - field_name: instances.$.state
+  - field_name: sharing
+  - field_name: sharing.$
+  - field_name: sharing.$.u
+  - field_name: sharing.$.o
+  - field_name: sharing.$.r
+  - field_name: message_count
+  - field_name: _table
+  - field_name: _table._id
+  - field_name: _table._code
+  - field_name: record_permissions
+  - field_name: url_test__c
+  - field_name: contact_lookup__c
+  - field_name: tlr__c
+  - field_name: productid__c
+  - field_name: loantermfrequency__c
+  - field_name: loantermfrequencytype__c
+  - field_name: numberofrepayments__c
+  - field_name: repaymentevery__c
+  - field_name: repaymentfrequencytype__c
+  - field_name: daysinyeartype__c
+  - field_name: transactionprocessingstrategyid__c
+  - field_name: expecteddisbursementdate__c
+  - field_name: fristpaymentdate__c
+  - field_name: intrestrate__c
+  - field_name: loanapprovalstatus__c
+  - field_name: clientid__c
+  - field_name: payment_day__c
+  - field_name: loanid__c
+  - field_name: mifos_client_id__c
+  - field_name: formatted_cell__c
+  - field_name: message_language__c
+  - field_name: payment_id__c
+label: Default
+object_name: opportunity
+profiles:
+  - user
+  - supplier
+  - customer
+  - admin
+related_lists:
+  - related_field_fullname: transaction__c.opp_id__c
+    field_names:
+      - credit_amount__c
+      - opp_id__c
+      - outtxid__c
+      - payment_date__c
+      - payment_mode__c
+      - fee_amount__c
+      - fee_type__c
+      - trecordtype__c
+    sort_field_name:
+      - payment_date__c
+    sort_order: asc
+  - related_field_fullname: cms_files.parent
+    field_names:
+      - name
+      - size
+      - owner
+      - created
+      - modified
+  - related_field_fullname: opportunity_contact_role.opportunity_id
+    field_names:
+      - number
+      - opportunity_id
+      - contact_id
+      - is_primary
+      - roles
+  - related_field_fullname: quote.opportunity_id
+    field_names:
+      - name
+      - opportunity_id
+      - expiration_date
+      - is_syncing
+      - status
+      - grand_total
+  - related_field_fullname: opportunity_line_item.opportunity_id
+    field_names:
+      - product_id
+      - quantity
+      - unit_price
+      - service_date
+  - related_field_fullname: leads.converted_opportunity
+    field_names:
+      - name
+      - company
+      - owner
+      - rating
+      - lead_source
+      - status
+      - created
+  - related_field_fullname: order.opportunity_id
+    field_names:
+      - order_number
+      - account_id
+      - agreement_id
+      - effective_date
+      - type
+      - status
+  - related_field_fullname: tasks.related_to
+    field_names:
+      - name
+      - due_date
+      - state
+      - priority
+      - assignees
+      - related_to
+  - related_field_fullname: events.related_to
+    field_names:
+      - name
+      - start
+      - end
+      - assignees
+      - related_to
+  - related_field_fullname: kyc_forms__c.opp_id__c
+    field_names:
+      - name
+      - opp_id__c
+      - vettingteammember1__c
+      - vettingteammember2__c
+      - instanceid__c
+type: record

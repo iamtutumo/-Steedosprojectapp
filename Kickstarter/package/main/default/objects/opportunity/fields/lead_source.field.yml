@@ -1,0 +1,28 @@
+name: lead_source
+filterable: true
+label: Lead Source
+options:
+  - label: Advertisement
+    value: Advertisement
+  - label: Customer_Event
+    value: Customer_Event
+  - label: Employee_Referral
+    value: Employee_Referral
+  - label: Baidu_AdWords
+    value: Baidu_AdWords
+  - label: Other
+    value: Other
+  - label: Partner
+    value: Partner
+  - label: Purchased_List
+    value: Purchased_List
+  - label: Trade_Show
+    value: Trade_Show
+  - label: Webinar
+    value: Webinar
+  - label: Website
+    value: Website
+searchable: true
+sort_no: 260
+sortable: true
+type: select

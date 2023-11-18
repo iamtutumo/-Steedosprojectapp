@@ -1,0 +1,12 @@
+name: utilization_resource_id__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Utilization Resource ID
+primary: false
+required: false
+sort_no: 130
+sortable: false
+type: text

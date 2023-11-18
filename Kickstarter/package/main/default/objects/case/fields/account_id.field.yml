@@ -1,0 +1,5 @@
+name: account_id
+label: client
+reference_to: accounts
+sort_no: 150
+type: lookup

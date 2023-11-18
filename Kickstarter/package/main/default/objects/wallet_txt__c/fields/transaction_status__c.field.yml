@@ -1,0 +1,23 @@
+name: transaction_status__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Transaction Status
+multiple: false
+options:
+  - label: Success
+    value: Success
+    color: f6c4e3
+  - label: Failed
+    value: Failed
+    color: ec82c4
+  - label: On Hold
+    value: Hold
+    color: 8c145e
+primary: false
+required: false
+sort_no: 170
+sortable: false
+type: select

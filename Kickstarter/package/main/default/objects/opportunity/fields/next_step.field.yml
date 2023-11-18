@@ -1,0 +1,5 @@
+name: next_step
+inlineHelpText: Describe the next steps after closing an opportunity.
+label: Next Step
+sort_no: 250
+type: text

@@ -1,0 +1,12 @@
+name: outtxid__c
+filterable: false
+formula: 'T-{00000}'
+generated: false
+index: false
+is_name: true
+is_wide: false
+label: Out-tx-id
+primary: false
+sort_no: 170
+sortable: false
+type: autonumber

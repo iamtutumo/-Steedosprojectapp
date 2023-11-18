@@ -1,0 +1,18 @@
+name: all
+columns:
+  - field: opp_id__c
+  - field: credit_amount__c
+  - field: payment_date__c
+  - field: payment_mode__c
+  - field: transaction_status__c
+  - field: trecordtype__c
+  - field: name
+filter_scope: space
+filters: []
+label: 所有
+mobile_columns: []
+scrolling_mode: standard
+shared: true
+sort: []
+sort_no: 100
+type: grid

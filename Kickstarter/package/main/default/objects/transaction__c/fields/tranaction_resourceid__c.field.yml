@@ -1,0 +1,12 @@
+name: tranaction_resourceid__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Tranaction Resource ID
+primary: false
+required: false
+sort_no: 260
+sortable: false
+type: text

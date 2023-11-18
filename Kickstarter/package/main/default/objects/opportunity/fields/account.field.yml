@@ -1,0 +1,9 @@
+name: account
+filterable: true
+inlineHelpText: The account name to which the opportunity is linked. You can enter a customer name or use the find icon to select a customer. If the customer you change has partners, all partners will be removed from the Partners related list.
+label: client
+reference_to: accounts
+required: true
+sort_no: 120
+sortable: true
+type: master_detail

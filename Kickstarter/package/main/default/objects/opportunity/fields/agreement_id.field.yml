@@ -1,0 +1,6 @@
+name: agreement_id
+hidden: true
+label: master agreement
+reference_to: agreement
+sort_no: 300
+type: lookup

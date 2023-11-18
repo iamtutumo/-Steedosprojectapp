@@ -1,0 +1,17 @@
+name: case_reason
+label: Case reasons
+options:
+  - label: User did not participate in training
+    value: Not_In_Training
+  - label: Complex functions
+    value: Complex_Function
+  - label: Already have a problem
+    value: Existing_Problem
+  - label: Description unknown
+    value: Description_Unknown
+  - label: new question
+    value: New_Problem
+searchable: true
+sort_no: 190
+sortable: true
+type: select

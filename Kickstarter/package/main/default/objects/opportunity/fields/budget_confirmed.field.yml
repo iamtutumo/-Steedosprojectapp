@@ -1,0 +1,4 @@
+name: budget_confirmed
+label: Have a budget
+sort_no: 200
+type: boolean

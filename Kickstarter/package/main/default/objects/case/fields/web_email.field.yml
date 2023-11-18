@@ -1,0 +1,5 @@
+name: web_email
+group: Web information
+label: Web email
+sort_no: 240
+type: email

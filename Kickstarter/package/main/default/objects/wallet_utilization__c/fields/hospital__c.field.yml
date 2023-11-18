@@ -1,0 +1,21 @@
+name: hospital__c
+data_type: text
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Hospital
+multiple: false
+options:
+  - label: Virika Hospital
+    value: Virika Hospital
+  - label: Rubaga Hospital
+    value: Rubaga Hospital
+  - label: Masaka Hospital
+    value: Masaka Hospital
+primary: false
+required: false
+sort_no: 160
+sortable: false
+type: select

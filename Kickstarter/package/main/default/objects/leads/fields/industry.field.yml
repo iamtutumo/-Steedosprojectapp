@@ -1,0 +1,74 @@
+name: industry
+filterable: true
+label: Industry
+options:
+  - label: agriculture
+    value: Agriculture
+  - label: apparel
+    value: Apparel
+  - label: banking
+    value: Banking
+  - label: biotechnology
+    value: Biotechnology
+  - label: chemicals
+    value: Chemicals
+  - label: software
+    value: Software
+  - label: communications
+    value: Communications
+  - label: construction
+    value: Construction
+  - label: consulting
+    value: Consulting
+  - label: education
+    value: Education
+  - label: electronics
+    value: Electronics
+  - label: energy
+    value: Energy
+  - label: engineering
+    value: Engineering
+  - label: entertainment
+    value: Entertainment
+  - label: environmental
+    value: Environmental
+  - label: finance
+    value: Finance
+  - label: food_&_Beverage
+    value: Food_&_Beverage
+  - label: government organization
+    value: Government
+  - label: medical insurance
+    value: Healthcare
+  - label: Serve
+    value: Hospitality
+  - label: Insurance
+    value: Insurance
+  - label: mechanical
+    value: Machinery
+  - label: manufacture
+    value: Manufacturing
+  - label: media
+    value: Media
+  - label: non-profit organization
+    value: Not_For_Profit
+  - label: other
+    value: Other
+  - label: Leisure
+    value: Recreation
+  - label: retail
+    value: Retail
+  - label: Shipping
+    value: Shipping
+  - label: science and technology
+    value: Technology
+  - label: telecommunications
+    value: Telecommunications
+  - label: Transportation
+    value: Transportation
+  - label: Utilities
+    value: Utilities
+searchable: true
+sort_no: 180
+sortable: true
+type: select

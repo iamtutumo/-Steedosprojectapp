@@ -1,0 +1,10 @@
+name: amount
+data_type: currency
+inlineHelpText: >-
+  Estimated total sales. If multiple currencies are enabled, amounts are displayed in your personal currency by default. Change the opportunity currency picklist to track amounts in another currency. For opportunities with products, the amount is the sum of related products. You cannot edit the amount directly unless the opportunity has no products. To change the amount of an opportunity that contains a product, edit the sales price or quantity of the related product. If you change the price book corresponding to a business opportunity, all products are deleted from the "Related Products" of the business opportunity, but the value in this field remains unchanged.
+label: Amount
+sort_no: 210
+summary_field: total_price
+summary_object: opportunity_line_item
+summary_type: sum
+type: summary

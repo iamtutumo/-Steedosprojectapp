@@ -1,0 +1,60 @@
+name: default
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+fields:
+  - field_name: account_id__c
+    is_required: false
+  - field_name: wallet_id__c
+    is_required: false
+  - field_name: walo__c
+    group: Wallet Details
+  - field_name: mifosclientid__c
+    group: Wallet Details
+  - field_name: wallet_on__c
+  - field_name: w_id__c
+  - field_name: clientid__c
+  - field_name: card__c
+label: Default
+object_name: wallet__c
+profiles:
+  - user
+  - admin
+related_lists:
+  - related_field_fullname: cards_allocation__c.wallet__c
+    field_names:
+      - card_number__c
+      - name
+      - card_status__c
+      - wallet__c
+      - card_18_digit__c
+      - card_autonum__c
+  - related_field_fullname: wallet_txt__c.wallet_id__c
+    field_names:
+      - wallet_id__c
+      - wallet_autonum__c
+      - w_payment_date__c
+      - w_payment_mode__c
+      - w_receipt_number__c
+      - w_amount__c
+      - name
+  - related_field_fullname: wallet_utilization__c.wallet_id_lookup__c
+    field_names:
+      - utilization_auto_num__c
+      - wallet_id_lookup__c
+      - wallet_savings_id__c
+  - related_field_fullname: notes.related_to
+    field_names:
+      - name
+      - created_by
+      - created
+      - related_to
+  - related_field_fullname: instances.record_ids
+    field_names:
+      - name
+      - applicant
+      - applicant_organization
+      - modified
+      - state
+type: record

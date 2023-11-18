@@ -1,0 +1,5 @@
+name: closed_when_created
+hidden: true
+label: Close on creation
+sort_no: 310
+type: boolean

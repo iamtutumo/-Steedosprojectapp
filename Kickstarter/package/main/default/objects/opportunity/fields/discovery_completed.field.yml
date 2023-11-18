@@ -1,0 +1,4 @@
+name: discovery_completed
+label: sEnd of survey
+sort_no: 220
+type: boolean

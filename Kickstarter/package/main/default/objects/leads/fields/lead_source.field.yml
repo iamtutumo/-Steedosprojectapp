@@ -1,0 +1,34 @@
+name: lead_source
+filterable: true
+label: Source of potential customers
+options:
+  - label: advertise
+    value: Advertisement
+  - label: Customer activities
+    value: Customer Event
+  - label: Employee recommendations
+    value: Employee Referral
+  - label: Baidu search
+    value: Baidu_AdWords
+  - label: other
+    value: Other
+  - label: Partner
+    value: Partner
+  - label: Purchased List
+    value: Purchased_List
+  - label: Trade_Show
+    value: Trade_Show
+  - label: Webinar
+    value: Webinar
+  - label: Website
+    value: Website
+  - label: Phone
+    value: Phone
+  - label: WeChat
+    value: WeChat
+  - label: Official Accounts
+    value: Official_Accounts
+searchable: true
+sort_no: 220
+sortable: true
+type: select

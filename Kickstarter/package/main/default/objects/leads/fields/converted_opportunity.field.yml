@@ -1,0 +1,6 @@
+name: converted_opportunity
+hidden: true
+label: Converted opportunities
+reference_to: opportunity
+sort_no: 400
+type: lookup

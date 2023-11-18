@@ -1,0 +1,14 @@
+name: priority
+label: priority
+options:
+  - label: high
+    value: High
+  - label: middle
+    value: Medium
+  - label: Low
+    value: Low
+required: true
+searchable: true
+sort_no: 200
+sortable: true
+type: select

@@ -1,0 +1,21 @@
+name: fee_type__c
+defaultValue: '1'
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Fee Type
+multiple: false
+options:
+  - label: Late fees
+    value: Late fees
+    color: ff748c
+  - label: Other Fee
+    value: Other Fee
+    color: '94e981'
+primary: false
+required: false
+sort_no: 280
+sortable: false
+type: select

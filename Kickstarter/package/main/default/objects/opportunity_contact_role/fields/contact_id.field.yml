@@ -1,0 +1,7 @@
+name: contact_id
+inlineHelpText: The name of the contact person or individual customer.
+label: Contact person
+reference_to: contacts
+required: true
+sort_no: 120
+type: lookup

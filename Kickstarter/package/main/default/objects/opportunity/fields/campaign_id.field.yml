@@ -1,0 +1,8 @@
+name: campaign_id
+index: true
+inlineHelpText: >-
+ The name of the campaign responsible for generating the business opportunity. For opportunities created during lead conversion, this field is automatically populated with the campaign name from the lead. If a lead has multiple associated campaigns, the campaign with the most recently updated member status is inserted into the opportunity. For opportunities with multiple impact campaigns, click Edit next to the primary campaign in the Campaign Impacts related list on the opportunity details page and select the Primary campaign source check box. The campaign appears on the opportunity in the Primary Campaign Source field.
+label: Main sources of market activity
+reference_to: campaign
+sort_no: 160
+type: lookup

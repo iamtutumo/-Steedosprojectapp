@@ -1,0 +1,15 @@
+name: opp_id__c
+filterable: false
+generated: false
+index: false
+inlineHelpText: The opportunity name associated with the Transaction.
+is_name: false
+is_wide: false
+label: Opp ID
+primary: false
+reference_to: opportunity
+required: true
+sort_no: 110
+sortable: false
+type: master_detail
+write_requires_master_read: true

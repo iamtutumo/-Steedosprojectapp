@@ -1,0 +1,5 @@
+name: description
+hidden: true
+label: description
+sort_no: 290
+type: textarea

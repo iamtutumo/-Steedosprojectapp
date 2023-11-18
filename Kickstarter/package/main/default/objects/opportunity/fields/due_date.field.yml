@@ -1,0 +1,8 @@
+name: due_date
+inlineHelpText: >-
+  The date you plan to close the opportunity. You can enter a date or select a date from the calendar that appears when you place your cursor in the field. Opportunities with a close date within a specified period are included in the forecast for that period unless you assign them to the Ignore category or forecast by plan or product date. When you set the stage of an open opportunity to Closed/Won, if the original date is in the future, the close date is set to UTC
+  (UTC) current date. At a certain time of day, UTC may be one day different from your time zone. If the close date is the date the opportunity closed in the past, the date cannot be changed.
+label: Statement date
+required: true
+sort_no: 130
+type: date

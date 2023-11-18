@@ -1,0 +1,12 @@
+name: w_receipt_number__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Txt Receipt number
+primary: false
+required: false
+sort_no: 150
+sortable: false
+type: text

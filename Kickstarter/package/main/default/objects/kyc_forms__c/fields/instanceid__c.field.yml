@@ -1,0 +1,12 @@
+name: instanceid__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: InstanceID
+primary: false
+required: false
+sort_no: 120
+sortable: false
+type: text

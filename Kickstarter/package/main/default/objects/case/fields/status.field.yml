@@ -1,0 +1,15 @@
+name: status
+filterable: true
+label: state
+options:
+  - label: pause
+    value: On_Hold
+  - label: upgrade
+    value: Escalated
+  - label: New
+    value: New
+required: true
+searchable: true
+sort_no: 160
+sortable: true
+type: select

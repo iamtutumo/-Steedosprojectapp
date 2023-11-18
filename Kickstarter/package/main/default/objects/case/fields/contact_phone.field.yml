@@ -1,0 +1,5 @@
+name: contact_phone
+label: contact number
+readonly: true
+sort_no: 110
+type: text

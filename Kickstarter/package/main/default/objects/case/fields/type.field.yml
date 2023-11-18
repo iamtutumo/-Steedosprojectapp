@@ -1,0 +1,14 @@
+name: type
+filterable: true
+label: type
+options:
+  - label: question
+    value: Problem
+  - label: Functional Requirements
+    value: Feature_Request
+  - label: doubt
+    value: Question
+searchable: true
+sort_no: 170
+sortable: true
+type: select

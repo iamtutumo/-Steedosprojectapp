@@ -1,0 +1,40 @@
+name: default
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+fields:
+  - field_name: name
+    is_required: true
+  - field_name: wallet_id_lookup__c
+    is_required: false
+  - field_name: utilization_amount__c
+    is_required: false
+  - field_name: utilization_resource_id__c
+    is_required: false
+  - field_name: utilization_id__c
+  - field_name: utilization_auto_num__c
+  - field_name: hospital__c
+    is_required: false
+  - field_name: utilization_date__c
+    is_required: false
+  - field_name: wallet_savings_id__c
+    is_required: false
+  - field_name: utilization_status__c
+    is_required: false
+  - field_name: utilization_master_detail__c
+label: Default
+object_name: wallet_utilization__c
+profiles:
+  - user
+  - admin
+  - hospital_staff
+related_lists:
+  - related_field_fullname: instances.record_ids
+    field_names:
+      - name
+      - applicant
+      - applicant_organization
+      - modified
+      - state
+type: record

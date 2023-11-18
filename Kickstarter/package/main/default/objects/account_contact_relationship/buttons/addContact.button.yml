@@ -1,0 +1,8 @@
+name: addContact
+is_enable: true
+label: Create new contact
+'on': list
+visible: |-
+  function(){
+          return true
+        }

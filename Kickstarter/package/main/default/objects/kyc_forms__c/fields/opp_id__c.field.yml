@@ -1,0 +1,14 @@
+name: opp_id__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Opp ID
+primary: false
+reference_to: opportunity
+required: false
+sort_no: 110
+sortable: false
+type: master_detail
+write_requires_master_read: false
