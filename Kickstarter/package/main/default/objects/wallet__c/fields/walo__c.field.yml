@@ -1,0 +1,13 @@
+name: walo__c
+filterable: false
+formula: 'Wallet- {MM}-{YYYY}- {00000}'
+generated: false
+group: Wallet Details
+index: false
+is_name: true
+is_wide: false
+label: Wallet AutoNum
+primary: false
+sort_no: 130
+sortable: false
+type: autonumber

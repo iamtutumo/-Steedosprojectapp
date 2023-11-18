@@ -1,0 +1,13 @@
+name: wallet_id__c
+defaultValue: na
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Wallet ID
+primary: false
+required: false
+sort_no: 120
+sortable: false
+type: text

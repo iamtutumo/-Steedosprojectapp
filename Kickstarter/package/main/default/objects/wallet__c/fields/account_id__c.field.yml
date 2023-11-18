@@ -1,0 +1,14 @@
+name: account_id__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Account
+primary: false
+reference_to: accounts
+required: false
+sort_no: 110
+sortable: false
+type: master_detail
+write_requires_master_read: false

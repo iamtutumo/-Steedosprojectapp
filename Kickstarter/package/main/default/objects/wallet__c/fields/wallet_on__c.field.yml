@@ -1,0 +1,12 @@
+name: wallet_on__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Wallet on
+primary: false
+required: false
+sort_no: 30
+sortable: false
+type: toggle
