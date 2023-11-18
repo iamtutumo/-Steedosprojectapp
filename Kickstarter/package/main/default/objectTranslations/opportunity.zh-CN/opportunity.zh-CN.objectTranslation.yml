@@ -1,0 +1,216 @@
+name: opportunity
+label:business opportunities
+description: 
+fields:
+  account:
+    label: client
+    help: The account name to which the opportunity is linked. You can enter a customer name or use the find icon to select a customer. If the customer you change has partners, all partners will be removed from the Partners related list.
+    description: 
+  agreement_id:
+    label: master agreement
+    help: 
+    description: 
+  amount:
+    label: Amount
+    help: >-
+      Estimated total sales. If multiple currencies are enabled, amounts are displayed in your personal currency by default. Change the opportunity currency picklist to track amounts in another currency. For opportunities with products, the amount is the sum of related products. You cannot edit the amount directly unless the opportunity has no products. To change the amount of an opportunity that contains a product, edit the sales price or quantity of the related product. If you change the price book corresponding to a business opportunity, all products are deleted from the "Related Products" of the business opportunity, but the value in this field remains unchanged.
+    description: 
+  budget_confirmed:
+    label: Have a budget
+    help: 
+    description: 
+  campaign_id:
+    label: Main sources of market activity
+    help: >-
+       The name of the campaign responsible for generating the business opportunity. For opportunities created during lead conversion, this field is automatically populated with the campaign name from the lead. If a lead has multiple associated campaigns, the campaign with the most recently updated member status is inserted into the opportunity. For opportunities with multiple impact campaigns, click Edit next to the primary campaign in the Campaign Impacts related list on the opportunity details page and select the Primary campaign source check box. The campaign appears on the opportunity in the Primary Campaign Source field.
+    description: 
+  description:
+    label: describe
+    help: 
+    description: 
+  discovery_completed:
+    label: End of survey
+    help: 
+    description: 
+  due_date:
+    label: Statement date
+    help: >-
+       The date you plan to close the opportunity. You can enter a date or select a date from the calendar that appears when you place your cursor in the field. Opportunities with a close date within a specified period are included in the forecast for that period unless you assign them to the Ignore category or forecast by plan or product date. When you set the stage of an open opportunity to Closed/Won, if the original date is in the future, the close date is set to UTC
+      (UTC) current date. At a certain time of day, UTC may be one day different from your time zone. If the close date is the date the opportunity closed in the past, the date cannot be changed.
+    description: 
+  expected_revenue:
+    label: Forecast revenue
+    help: Revenue based on dollar amount and opportunity win rate.
+    description: 
+  forecast_category:
+    label: Prediction category
+    help: The name of the forecast category displayed in reports, opportunity details and edit pages, opportunity searches, and opportunity list views. An opportunity's settings are tied to its stages.
+    options:
+      - label: neglect
+        value: Omit
+      - label: sales funnel
+        value: Sales_Funnel
+      - label: maximum amount
+        value: Maximum_Amount
+      - label: submit
+        value: Submit
+      - label: closure
+        value: Close
+    description: 
+  iq_score:
+    label: opportunity score
+    help: 
+    description: 
+  lead_source:
+    label: Source of potential customers
+    help: 
+    options:
+      - label: advertise
+        value: Advertisement
+      - label: Customer activities
+        value: Customer_Event
+      - label: Employee recommendations
+        value: Employee_Referral
+      - label: Baidu search
+        value: Baidu_AdWords
+      - label: other
+        value: Other
+      - label: Partner
+        value: Partner
+      - label: Purchasing List
+        value: Purchased_List
+      - label: trade show
+        value: Trade_Show
+      - label: Online seminar
+        value: Webinar
+      - label: website
+        value: Website
+    description: 
+  loss_reason:
+    label: Reason for failure
+    help: 
+    options:
+      - label: Competition failed
+        value: Lost_to_Competitor
+      - label: no budget
+        value: No_Budget_Lost_Funding
+      - label: no respond
+        value: No_Decision_Non-Responsive
+      - label: price factor
+        value: Price
+      - label: other
+        value: Other
+    description: 
+  name:
+    label: Business opportunity name
+    help: 
+    description: 
+  next_step:
+    label: Next step
+    help: Describe the next steps after closing an opportunity.
+    description: 
+  opportunity_currency:
+    label: Opportunity currency
+    help: >-
+      The default currency for all currency amount fields in opportunities. Amounts are displayed in the opportunity currency and converted to the user's personal currency. Only available when multiple currencies are enabled. For opportunities with products, the currency is bound to the currency of the associated price book. You cannot edit this field directly unless you delete the product first.
+    description: 
+  owner:
+    label: Our account manager
+    help: 
+    description: 
+  partner_account:
+    label: Partner customers
+    help: Indicates that the business opportunity belongs to a partner (read-only)
+    description: 
+  price_book_id:
+    label: price book
+    help: 
+    description: 
+  private:
+    label: dedicated
+    help: Opportunities are private. Only the owner of the record, users above that role in the hierarchy, and administrators can view, edit, or report on private records.
+    description: 
+  probability:
+    label: Business opportunity win rate (%)
+    help: >-
+      The probability, expressed as a percentage, that the opportunity will close. The likelihood value is always updated by changes to the stage value, even if the likelihood field is marked read-only in your page layout. Users with edit permissions on this field can override this value.
+    options:
+      - label: 10%
+        value: 10%
+      - label: 35%
+        value: 35%
+      - label: 75%
+        value: 75%
+      - label: 90%
+        value: 90%
+      - label: 100%
+        value: 100%
+      - label: 0%
+        value: 0%
+    description: 
+  rating:
+    label: Grading
+    help: 
+    options:
+      - label: Very important
+        value: Hot
+      - label: important
+        value: Warm
+      - label: usually
+        value: Cold
+    description: 
+  roi_analysis_completed:
+    label: Complete ROI analysis
+    help: 
+    description: 
+  stage:
+    label: business opportunity stage
+    help: >-
+       Administrators associate the values ​​in this picklist with the Forecast Category value that determines how the opportunity contributes to your forecast. If the original date is in the future, then when you set the stage for an open opportunity to Closed/Won, the close date is set to UTC
+      (UTC) current date. At a certain time of day, UTC may be one day different from your time zone. If the close date is the date the opportunity closed in the past, the date cannot be changed.
+    options:
+      - label: Initial communication
+        value: Qualification
+      - label: Project establishment tracking
+        value: Needs_Analysis
+      - label: Submit plan
+        value: Proposal
+      - label: business negotiation
+        value: Negotiation
+      - label: Winning order
+        value: Closed_Won
+      - label: lose order
+        value: Closed_Lost
+    description: 
+  synced_quoted:
+    label: Synchronized quotes
+    help: Quotes synced to opportunities. Only one quote can be synced to an opportunity.
+    description: 
+  total_opportunity_quantity:
+    label: quantity
+    help: If the opportunity has products, the total of all quantity field values ​​for all products in the Products related list. Generic field if the opportunity has no products.
+    description: 
+  type:
+    label: Opportunity type
+    help: The type of opportunity, such as "Existing Business" or "New Business".
+    options:
+      - label: Existing business
+        value: Existing_Business
+      - label: new business
+        value: New_Business
+    description: 
+groups:
+  备注信息: Remarks
+listviews:
+  all:
+    label: All business opportunities
+  lost:
+    label: Failed business opportunities
+  mine:
+    label: my business opportunities
+  operating:
+    label:  Ongoing business opportunities
+  recent:
+    label: Recently viewed
+  won:
+    label: Successful business opportunities

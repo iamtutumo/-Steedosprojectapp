@@ -1,0 +1,73 @@
+name: account_contact_relationship
+label: Customer Contact Relationship
+description: 
+fields:
+  account_id:
+    label: client
+    help: The name of the company associated with the contact.
+    description: 
+  contact_id:
+    label: Contact person
+    help: The names of people associated with the customer.
+    description: 
+  end_date:
+    label: end date
+    help: The date the relationship between the account and contact ended. Use with the start date field to maintain relationship history.
+    description: 
+  is_active:
+    label: enable
+    help: Indicates whether the contact is actively involved with the company.
+    description: 
+  is_direct:
+    label: direct
+    help: >-
+      Indicates whether the customer associated with the contact is the contact's primary customer. This read-only field is based on the customer name in the contact record. For example, in a Baidu customer record, the related list of related contacts automatically includes all contacts who have Baidu in the customer name field and marks them as direct contacts.
+    description: 
+  number:
+    label: serial number
+    help: 
+    description: 
+  relationship_strength:
+    label: intimacy
+    help: 
+    options:
+      - label: Friendship
+        value: Friends
+      - label: general relationship
+        value: Normal
+      - label: first acquaintance
+        value: New
+    description: 
+  role:
+    label: Role
+    help: The contact's role in the opportunity；For example: buyer, decision maker or evaluator. You can select multiple roles for a contact.
+    options:
+      - label: ordinary people
+        value: Ordinary
+      - label: decision maker
+        value: Policymaker
+      - label: sub-decision maker
+        value: Itemize_Policymaker
+      - label: business decisions
+        value: Business_Decision
+      - label: technical decisions
+        value: Tech_Decision
+      - label: financial decisions
+        value: Finance_Decision
+      - label: user
+        value: Recipient
+      - label: Opinions influence people
+        value: Opinions_People
+    description: 
+  start_date:
+    label: start date
+    help: The date the relationship between the account and contact began. Use with the end date field to maintain relationship history.
+    description: 
+listviews:
+  all:
+    label: All customer contact relationships
+  recent:
+    label: Recently viewed
+actions:
+  addContact:
+    label: Create new contact

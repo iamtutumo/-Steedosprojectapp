@@ -1,0 +1,7 @@
+name: contacts
+desktop: true
+icon: asset_relationship
+label: Contacts
+mobile: true
+object: contacts
+type: object

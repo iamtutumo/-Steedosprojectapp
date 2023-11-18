@@ -1,0 +1,4 @@
+CustomApplications:
+  sales:
+    name: Sales
+    description: Manage the sales process with accounts, prospects, opportunities, and more

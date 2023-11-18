@@ -1,0 +1,271 @@
+name: leads
+label: Lead
+description: 
+fields:
+  address:
+    label: address
+    help: 
+    description: 
+  annual_revenue:
+    label: Annual income
+    help: 
+    description: 
+  campaign_id:
+    label: marketing activity
+    help: 
+    description: 
+  company:
+    label: company
+    help: 
+    description: 
+  converted:
+    label: Converted
+    help: 
+    description: 
+  converted_account:
+    label: Converted customers
+    help: 
+    description: 
+  converted_contact:
+    label: Converted contacts
+    help: 
+    description: 
+  converted_opportunity:
+    label: Converted opportunities
+    help: 
+    description: 
+  description:
+    label: describe
+    help: 
+    description: 
+  do_not_call:
+    label: Do not call
+    help: 
+    description: 
+  email:
+    label: e-mail
+    help: 
+    description: 
+  fax:
+    label: fax
+    help: 
+    description: 
+  fax_opt_out:
+    label: Exit fax list
+    help: 
+    description: 
+  has_opted_out_of_email:
+    label: Exit mailing list
+    help: 
+    description: 
+  individual:
+    label: personal
+    help: 
+    description: 
+  industry:
+    label: industry
+    help: 
+    options:
+      - label: agriculture
+        value: Agriculture
+      - label: apparel
+        value: Apparel
+      - label: banking
+        value: Banking
+      - label: biotechnology
+        value: Biotechnology
+      - label: chemical industry
+        value: Chemicals
+      - label: software
+        value: Software
+      - label: communication
+        value: Communications
+      - label: architecture
+        value: Construction
+      - label: consult
+        value: Consulting
+      - label: educate
+        value: Education
+      - label: electronic
+        value: Electronics
+      - label: energy
+        value: Energy
+      - label: project
+        value: Engineering
+      - label: entertainment
+        value: Entertainment
+      - label: Environmental friendly
+        value: Environmental
+      - label: finance
+        value: Finance
+      - label: food and drink
+        value: Food_&_Beverage
+      - label: government organization
+        value: Government
+      - label: medical insurance
+        value: Healthcare
+      - label: Serve
+        value: Hospitality
+      - label: Insurance
+        value: Insurance
+      - label: mechanical
+        value: Machinery
+      - label: manufacture
+        value: Manufacturing
+      - label: media
+        value: Media
+      - label: non-profit organization
+        value: Not_For_Profit
+      - label: other
+        value: Other
+      - label: Leisure
+        value: Recreation
+      - label: retail
+        value: Retail
+      - label: Shipping
+        value: Shipping
+      - label: science and technology
+        value: Technology
+      - label: telecommunications
+        value: Telecommunications
+      - label: transportation
+        value: Transportation
+      - label: Utilities
+        value: Utilities
+    description: 
+  last_transfer_date:
+    label: Date of last change to account manager
+    help: 
+    description: 
+  lead_source:
+    label: Source of potential customers
+    help: 
+    options:
+      - label: advertise
+        value: Advertisement
+      - label: Customer activities
+        value: Customer_Event
+      - label: Employee recommendations
+        value: Employee_Referral
+      - label: Baidu search
+        value: Baidu_AdWords
+      - label: other
+        value: Other
+      - label: Partner
+        value: Partner
+      - label: Purchasing List
+        value: Purchased_List
+      - label: trade show
+        value: Trade_Show
+      - label: online seminar
+        value: Webinar
+      - label: website
+        value: Website
+      - label: Telephone
+        value: Phone
+      - label: Enterprise WeChat code scanning
+        value: WeChat
+      - label: No public
+        value: Official_Accounts
+    description: 
+  mobilephone:
+    label: cell phone
+    help: 
+    description: 
+  name:
+    label: Name
+    help: 
+    description: 
+  number_of_employees:
+    label: Number of employees
+    help: 
+    description: 
+  owner:
+    label: Our account manager
+    help: 
+    description: 
+  partner_account:
+    label: Partner customers
+    help: 
+    description: 
+  phone:
+    label: Telephone
+    help: 
+    description: 
+  rating:
+    label: Grading
+    help: 
+    options:
+      - label: Very important
+        value: Hot
+      - label: important
+        value: Warm
+      - label: usually
+        value: Cold
+    description: 
+  read:
+    label: read
+    help: 
+    description: 
+  salutation:
+    label: gender
+    help: 
+    options:
+      - label: male
+        value: Male
+      - label: female
+        value: Female
+    description: 
+  status:
+    label: state
+    help: 
+    options:
+      - label: New
+        value: New
+      - label: Contacted
+        value: Working
+      - label: Under cultivation
+        value: Nurturing
+      - label: Converted
+        value: Qualified
+      - label: no intention
+        value: Unqualified
+      - label: Another brand has been selected
+        value: Others
+      - label: can not be reached
+        value: Not_Available
+      - label: Distribution agent
+        value: Agent
+      - label: Enterprise customers
+        value: Business
+    description: 
+  title:
+    label: Position
+    help: 
+    description: 
+  unread:
+    label: unread
+    help: 
+    description: 
+  website:
+    label: URL
+    help: 
+    description: 
+groups:
+  地址信息: Address information
+listviews:
+  all:
+    label: All potential customers
+  hot:
+    label: Very important potential customers
+  mine:
+    label: my potential customers
+  recent:
+    label: Recently viewed
+  today:
+    label: new potential customers
+actions:
+  alertConvertedRecords:
+    label: Show conversion status
+  convert:
+    label: Convert

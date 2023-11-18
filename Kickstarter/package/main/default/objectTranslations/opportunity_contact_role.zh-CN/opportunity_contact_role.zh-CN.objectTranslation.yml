@@ -1,0 +1,44 @@
+name: opportunity_contact_role
+label: Opportunity Contact Role
+description: 
+fields:
+  contact_id:
+    label: Contact person
+    help: The name of the contact person or individual customer.
+    description: 
+  is_primary:
+    label: main
+    help: Hit ✔ to indicate that this contact is the primary contact for the business opportunity.
+    description: 
+  number:
+    label: serial number
+    help: 
+    description: 
+  opportunity_id:
+    label: Business opportunity name
+    help: The name of the opportunity associated with the contact.
+    description: 
+  roles:
+    label: Role
+    help:  The contact's role in the opportunity; for example: buyer, decision maker, or evaluator. You can select multiple roles for a contact.
+    options:
+      - label: ordinary people
+        value: Ordinary
+      - label: decision maker
+        value: Policymaker
+      - label: sub-decision maker
+        value: Itemize_Policymaker
+      - label: business decisions
+        value: Business_Decision
+      - label: technical decisions
+        value: Tech_Decision
+      - label: financial decisions
+        value: Finance_Decision
+      - label: user
+        value: Recipient
+      - label: Opinions influence people
+        value: Opinions_People
+    description: 
+listviews:
+  all:
+    label: All Opportunity Contacts

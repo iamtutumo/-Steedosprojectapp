@@ -1,0 +1,30 @@
+rules:
+  - name: update_opp_name
+    active: false
+    formula: 'opportunity: description = " "'
+    label: update_opp_name
+    object_name: opportunity
+    trigger_type: onAllChanges
+    updates_field_actions:
+      - update_opp_name
+    workflow_notifications_actions:
+      - opp_name_change
+fieldUpdates:
+  - name: update_opp_name
+    field_name: name
+    formula: account.name+"-"+l_numb__c
+    instance_state: approved
+    label: update_opp_name
+    object_name: opportunity
+    operation: formula
+    reevaluate_on_change: true
+    target_object: opportunity
+    undirect: false
+notifications:
+  - name: opp_name_change
+    assigned_user_field:
+      - owner
+    body: opp_name_change
+    label: opp_name_change
+    object_name: opportunity
+    title: opp_name_change
