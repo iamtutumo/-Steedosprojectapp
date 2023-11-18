@@ -2,6 +2,7 @@
     "name": "@iamtutumo/kickstarter-crm",
     "version": "2.1.61",
     "description": "",
+    "private": false,
     "main": "package.service.js",
     "scripts": {
         "start": "moleculer-runner services",
