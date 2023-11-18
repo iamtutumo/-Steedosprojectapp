@@ -1,0 +1,5 @@
+# avatar_dark is used in the old version of wokflow, so it is hidden and cannot be deleted temporarily.name: avatar_dark
+label: Dark Logo
+type: avatar
+hidden: true
+group: branding
