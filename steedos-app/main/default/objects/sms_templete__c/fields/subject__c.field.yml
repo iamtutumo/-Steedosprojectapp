@@ -1,0 +1,12 @@
+name: subject__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Subject
+primary: false
+required: false
+sort_no: 110
+sortable: false
+type: text

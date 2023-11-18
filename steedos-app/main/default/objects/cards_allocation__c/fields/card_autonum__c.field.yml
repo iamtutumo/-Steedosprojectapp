@@ -1,0 +1,12 @@
+name: card_autonum__c
+filterable: false
+formula: 'CARD-{00000000}{MM}-{YY}'
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Card Autonum
+primary: false
+sort_no: 130
+sortable: false
+type: autonumber

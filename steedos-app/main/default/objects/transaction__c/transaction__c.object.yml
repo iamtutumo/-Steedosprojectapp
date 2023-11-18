@@ -1,0 +1,20 @@
+name: transaction__c
+custom: true
+description: Object to collect payment details.
+enable_api: true
+enable_chatter: true
+enable_enhanced_lookup: false
+enable_events: false
+enable_files: false
+enable_inline_edit: true
+enable_instances: true
+enable_notes: true
+enable_search: true
+enable_share: true
+enable_tasks: false
+enable_tree: true
+enable_workflow: true
+icon: quip
+is_enable: true
+label: Transaction
+version: 2

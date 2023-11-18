@@ -1,0 +1,24 @@
+name: utilization_status__c
+defaultValue: Draft
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Utilization Status
+multiple: false
+options:
+  - label: Draft
+    color: 1B2631
+    value: Draft
+  - label: Submitted
+    value: Submitted
+    color: 5D6D7E
+  - label: Approved
+    value: Approved
+    color: 58D68D
+primary: false
+required: false
+sort_no: 190
+sortable: false
+type: select

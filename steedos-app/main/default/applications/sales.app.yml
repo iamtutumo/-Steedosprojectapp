@@ -1,0 +1,36 @@
+name: Sales
+code: sales
+description: 通过客户、潜在客户、业务机会等管理销售流程
+icon_slds: case
+is_creator: true
+mobile: true
+mobile_objects:
+  - opportunity
+  - leads
+  - accounts
+  - contacts
+  - quote
+  - order
+  - product
+  - campaign
+  - transaction__c
+  - wallet__c
+objects:
+  - opportunity
+  - leads
+  - accounts
+  - contacts
+  - quote
+  - order
+  - product
+  - campaign
+  - tasks
+  - events
+  - reports
+  - transaction__c
+  - wallet__c
+  - wallet_utilization__c
+  - wallet_txt__c
+  - cards_allocation__c
+sort: 20
+visible: true

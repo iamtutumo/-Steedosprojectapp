@@ -1,0 +1,21 @@
+name: message_language__c
+data_type: text
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Message Language
+multiple: false
+options:
+  - label: English
+    value: English
+  - label: Luganda
+    value: Luganda
+  - label: Swahili
+    value: Swahili
+primary: false
+required: false
+sort_no: 140
+sortable: false
+type: select

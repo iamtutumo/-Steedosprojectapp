@@ -1,0 +1,23 @@
+name: default
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+fields:
+  - field_name: name
+    is_required: true
+  - field_name: opp_id__c
+    is_required: false
+  - field_name: instanceid__c
+    is_required: false
+  - field_name: vettingteammember1__c
+    is_required: false
+  - field_name: vettingteammember2__c
+    is_required: false
+label: Default
+object_name: kyc_forms__c
+profiles:
+  - user
+  - admin
+related_lists: []
+type: record

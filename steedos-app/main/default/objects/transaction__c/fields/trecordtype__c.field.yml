@@ -1,0 +1,23 @@
+name: trecordtype__c
+data_type: text
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Transaction Record Type
+multiple: false
+options:
+  - label: Loan Repayment
+    value: Loan repayment
+    color: d8d8ff
+    description: Payments towards the loan
+  - label: Loan Fee
+    value: Loan Fees
+    description: Fee Tranactions
+    color: d8ffd8
+primary: false
+required: false
+sort_no: 200
+sortable: false
+type: select

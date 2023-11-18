@@ -1,0 +1,24 @@
+name: card_status__c
+data_type: text
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Card Status
+multiple: false
+options:
+  - label: Active
+    value: Active
+    color: 58D68D
+  - label: Inactive
+    value: Inactive
+    color: FFC300
+  - label: On Hold
+    value: On Hold
+    color: FF5733
+primary: false
+required: false
+sort_no: 120
+sortable: false
+type: select

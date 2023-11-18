@@ -1,0 +1,14 @@
+name: clientid__c
+data_type: text
+filterable: false
+formula: _id
+formula_blank_value: zeroes
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Client ID
+primary: false
+sort_no: 150
+sortable: false
+type: formula

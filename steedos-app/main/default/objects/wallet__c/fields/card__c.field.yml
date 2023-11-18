@@ -1,0 +1,14 @@
+name: card__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Card
+multiple: false
+primary: false
+reference_to: cards_allocation__c
+required: false
+sort_no: 190
+sortable: false
+type: lookup

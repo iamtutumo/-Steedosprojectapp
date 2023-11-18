@@ -1,0 +1,14 @@
+name: w_amount__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Amount
+precision: 18
+primary: false
+required: false
+scale: 0
+sort_no: 160
+sortable: false
+type: currency

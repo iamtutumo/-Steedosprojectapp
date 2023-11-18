@@ -1,0 +1,6 @@
+name: name
+index: true
+label: name
+required: false
+sort_no: 100
+type: text

@@ -1,0 +1,14 @@
+name: wallet__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Wallet
+primary: false
+reference_to: wallet__c
+required: false
+sort_no: 150
+sortable: false
+type: master_detail
+write_requires_master_read: false

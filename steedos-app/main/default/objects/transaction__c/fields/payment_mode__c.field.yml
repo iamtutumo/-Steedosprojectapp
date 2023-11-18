@@ -1,0 +1,21 @@
+name: payment_mode__c
+data_type: text
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Payment Mode
+multiple: false
+options:
+  - label: Payway
+    value: '1'
+  - label: Yo uganda
+    value: '2'
+  - label: Bank deposit
+    value: '3'
+primary: false
+required: false
+sort_no: 140
+sortable: false
+type: select

@@ -1,0 +1,14 @@
+name: utilization_master_detail__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Utilization Master detail
+primary: false
+reference_to: wallet__c
+required: false
+sort_no: 200
+sortable: false
+type: master_detail
+write_requires_master_read: false

@@ -1,0 +1,14 @@
+name: account_lookup__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: account lookup
+multiple: false
+primary: false
+reference_to: accounts
+required: false
+sort_no: 100
+sortable: false
+type: lookup

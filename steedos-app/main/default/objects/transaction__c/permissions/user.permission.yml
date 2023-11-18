@@ -1,0 +1,107 @@
+name: Transaction.User
+allowCreate: true
+allowCreateFiles: true
+allowDelete: true
+allowDeleteFiles: true
+allowEdit: true
+allowEditFiles: true
+allowRead: true
+allowReadFiles: true
+modifyAllRecords: false
+permission_set_id: user
+viewAllFiles: true
+viewAllRecords: false
+field_permissions:
+  - field: parent
+    readable: true
+    editable: true
+  - field: children
+    readable: true
+    editable: true
+  - field: name
+    readable: true
+    editable: true
+  - field: owner
+    readable: false
+    editable: false
+  - field: created
+    readable: true
+    editable: false
+  - field: created_by
+    readable: true
+    editable: false
+  - field: modified
+    readable: true
+    editable: false
+  - field: modified_by
+    readable: true
+    editable: false
+  - field: locked
+    readable: false
+    editable: false
+  - field: company_id
+    readable: false
+    editable: false
+  - field: company_ids
+    readable: false
+    editable: false
+  - field: instance_state
+    readable: true
+    editable: true
+  - field: opp_id__c
+    readable: true
+    editable: true
+  - field: credit_amount__c
+    readable: true
+    editable: true
+  - field: payment_date__c
+    readable: true
+    editable: true
+  - field: payment_mode__c
+    readable: true
+    editable: true
+  - field: receipt_no__c
+    readable: true
+    editable: true
+  - field: transaction_status__c
+    readable: true
+    editable: true
+  - field: outtxid__c
+    readable: true
+    editable: true
+  - field: transid__c
+    readable: true
+    editable: true
+  - field: cname__c
+    readable: true
+    editable: true
+  - field: trecordtype__c
+    readable: true
+    editable: true
+  - field: clientoppid__c
+    readable: true
+    editable: true
+  - field: client__c
+    readable: true
+    editable: true
+  - field: relatedto__c
+    readable: true
+    editable: true
+  - field: wallet_lookup__c
+    readable: true
+    editable: true
+  - field: loan_id__c
+    readable: true
+    editable: true
+  - field: tranaction_resourceid__c
+    readable: true
+    editable: true
+  - field: fee_amount__c
+    readable: true
+    editable: true
+  - field: fee_type__c
+    readable: true
+    editable: true
+  - field: account_lookup__c
+    readable: true
+    editable: true

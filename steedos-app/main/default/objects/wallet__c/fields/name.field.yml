@@ -1,0 +1,7 @@
+name: name
+index: false
+is_name: false
+label: 名称
+required: false
+sort_no: 100
+type: text

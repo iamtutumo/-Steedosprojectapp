@@ -1,0 +1,12 @@
+name: utilization_date__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Utilization Date
+primary: false
+required: false
+sort_no: 170
+sortable: false
+type: datetime

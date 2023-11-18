@@ -1,0 +1,12 @@
+name: wallet_savings_id__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Wallet Savings ID
+primary: false
+required: false
+sort_no: 180
+sortable: false
+type: text

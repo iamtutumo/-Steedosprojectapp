@@ -1,0 +1,7 @@
+name: account
+desktop: true
+icon: account
+label: Accounts
+mobile: true
+object: accounts
+type: object

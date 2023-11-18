@@ -1,0 +1,12 @@
+name: body__c
+filterable: false
+generated: false
+index: false
+is_name: false
+is_wide: false
+label: Body
+primary: false
+required: false
+sort_no: 120
+sortable: false
+type: text

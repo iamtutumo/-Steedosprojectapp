@@ -1,0 +1,6 @@
+name: children
+label: 子Transaction
+multiple: true
+reference_to: transaction__c
+type: lookup
+visible_on: '{{false}}'

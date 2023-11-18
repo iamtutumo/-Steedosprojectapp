@@ -1,0 +1,19 @@
+name: wallet_txt__c
+custom: true
+enable_api: true
+enable_chatter: true
+enable_enhanced_lookup: false
+enable_events: false
+enable_files: false
+enable_inline_edit: true
+enable_instances: true
+enable_notes: false
+enable_search: true
+enable_share: true
+enable_tasks: true
+enable_tree: false
+enable_workflow: true
+icon: topic
+is_enable: true
+label: Wallet Transactions
+version: 2

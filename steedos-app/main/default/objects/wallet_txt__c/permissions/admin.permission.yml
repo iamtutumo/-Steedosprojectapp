@@ -1,0 +1,78 @@
+name: Wallet Transactions.Admin
+allowCreate: true
+allowCreateFiles: true
+allowDelete: true
+allowDeleteFiles: true
+allowEdit: true
+allowEditFiles: true
+allowRead: true
+allowReadFiles: true
+modifyAllFiles: true
+modifyAllRecords: true
+permission_set_id: admin
+viewAllFiles: true
+viewAllRecords: true
+field_permissions:
+  - field: name
+    readable: true
+    editable: true
+  - field: owner
+    readable: false
+    editable: false
+  - field: created
+    readable: true
+    editable: false
+  - field: created_by
+    readable: true
+    editable: false
+  - field: modified
+    readable: true
+    editable: false
+  - field: modified_by
+    readable: true
+    editable: false
+  - field: locked
+    readable: false
+    editable: false
+  - field: company_id
+    readable: false
+    editable: false
+  - field: company_ids
+    readable: false
+    editable: false
+  - field: instance_state
+    readable: true
+    editable: true
+  - field: wallet_id__c
+    readable: true
+    editable: true
+  - field: wallet_autonum__c
+    readable: true
+    editable: true
+  - field: w_payment_date__c
+    readable: true
+    editable: true
+  - field: w_payment_mode__c
+    readable: true
+    editable: true
+  - field: w_receipt_number__c
+    readable: true
+    editable: true
+  - field: w_amount__c
+    readable: true
+    editable: true
+  - field: transaction_status__c
+    readable: true
+    editable: true
+  - field: mifos_txt_status__c
+    readable: true
+    editable: true
+  - field: w_txt_id__c
+    readable: true
+    editable: true
+  - field: walletresourceid__c
+    readable: true
+    editable: true
+  - field: mifos_wallet_id__c
+    readable: true
+    editable: true

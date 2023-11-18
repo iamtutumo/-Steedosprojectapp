@@ -1,0 +1,8 @@
+name: user
+label: User
+lockout_interval: 15
+login_expiration_in_days: 90
+max_login_attempts: 10
+password_history: 3
+phone_login_expiration_in_days: 90
+type: profile
