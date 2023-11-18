@@ -1,0 +1,18 @@
+{
+    "name": "@iamtutumo/kickstarter",
+    "version": "2.2.8",
+    "description": "",
+    "main": "package.service.js",
+    "scripts": {},
+    "author": "",
+    "private": false,
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@steedos-labs/master": "2.2.8"
+    },
+    "homepage": "https://developer.steedos.com",
+    "gitHead": "922bc5e1c66ed3dccc8908eda188c9ced524f83d"
+}
